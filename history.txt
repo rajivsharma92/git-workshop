@@ -1,0 +1,2938 @@
+    1  git merge hotfix/divide-zero-bug 
+    2  git push origin dev
+    3  git checkout feature/sqrt 
+    4  git pull origin dev
+    5  git checkout main 
+    6  git merge dev 
+    7  git push origin main 
+    8  ls
+    9  cd
+   10  ls
+   11  cd Batch8/
+   12  ls
+   13  cd DevOps-8/
+   14  ls
+   15  mkdir aug25
+   16  cd aug25
+   17  ls
+   18  echo "Rajiv Sharma"
+   19  pwd
+   20  touch test1.txt
+   21  cat test1.txt 
+   22  cat test1.txt> echo "How are you?"
+   23  cat test1.txt | echo "How are you?"
+   24  cat test1.txt 
+   25  vi test1.txt 
+   26  cat test1.txt 
+   27  grep "cat" test1.txt 
+   28  cp test1.py test2.py
+   29  cp test1.text test2.text
+   30  ls
+   31  cat echo
+   32  rm echo
+   33  ls
+   34  cp test1.txt text2.txt
+   35  ls
+   36  grep "dog"
+   37  grep "dog" test2.txt
+   38  ls
+   39  grep "dog" text2.txt
+   40  mkdir test
+   41  ls
+   42  mv text2.txt /test
+   43  ls -ltr
+   44  ls -ld /test
+   45  ls
+   46  sudo mv text2.txt /test
+   47  ls
+   48  cd test/
+   49  ls
+   50  ls -ltr
+   51  pwd
+   52  ls
+   53  cd ..
+   54  ls
+   55  mv test1.txt /home/rajiv-sharma/Batch8/DevOps-8/aug25/test
+   56  ls
+   57  cd test/
+   58  ls
+   59  sudo -i
+   60  cd
+   61  ls --help
+   62  clear
+   63  mkdir --help
+   64  ip a
+   65  clear
+   66  whoami
+   67  whoami help
+   68  whoami --help
+   69  ls
+   70  la -a
+   71  cat .sudo_as_admin_successful 
+   72  ip a
+   73  cat /etc/hosts
+   74  history
+   75  ma ls
+   76  man ls
+   77  history head
+   78  history --head
+   79  history
+   80  cd
+   81  chmod
+   82  man chmod
+   83  ls -ltr
+   84  cd Batch8/
+   85  ls -l
+   86  ls -lt
+   87  cd DevOps-8/
+   88  ls
+   89  cd aug25
+   90  ls
+   91  ls -ltr
+   92  cd test
+   93  ls -ltr
+   94  chmod u+x test1.txt 
+   95  ls -l
+   96  chmod g+x test1.txt 
+   97  ls -lt
+   98  ssh app-script-ch11@challenge02.root-me.org -p 2222
+   99  ls
+  100  cat test1.txt 
+  101  ssh app-script-ch11@challenge02.root-me.org -p 2222
+  102  ls
+  103  ls -ltr > log.txt
+  104  ls
+  105  cat log.txt 
+  106  locate
+  107  locate text2.txt
+  108  locate Devops
+  109  ls
+  110  man locate
+  111  cd
+  112  sudo apt upgrade
+  113  supdo apt update
+  114  sudo apt update
+  115  clear
+  116  sudo ls /root
+  117  sudo -i
+  118  ls
+  119  pwd
+  120  ls
+  121  git clone https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  122  ls
+  123  ls git_assignment_HeroVired/
+  124  ls
+  125  cd git_assignment_HeroVired/
+  126  ls
+  127  git branch dev
+  128  git branch
+  129  git checkout dev
+  130  ls
+  131  git add .
+  132  git commit m "Added basic calculator code"
+  133  git commit -m "Added basic calculator code"
+  134  git status
+  135  git remote -v
+  136  git push origin dev
+  137  git checkout master
+  138  git branch
+  139  git checkout main
+  140  git pull origin main
+  141  git merge dev
+  142  git add .
+  143  git commit
+  144  git push origin main
+  145  git status
+  146  git branch
+  147  git pull main
+  148  ls
+  149  git pull main
+  150  git pull https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  151  git branch
+  152  git branch -b hotfix
+  153  git checkout -b hotfix
+  154  git branch
+  155  git remote -v
+  156  git fech origin
+  157  git fetch origin
+  158  git branch
+  159  git branch -r
+  160  git checkout feature/sqrt 
+  161  ls
+  162  cat calculator_plus_app.py 
+  163  git remote
+  164  git origin
+  165  git branch
+  166  git fetch origin
+  167  git branch -r
+  168  git branch
+  169  git checkout dev
+  170  git checkout hotfix 
+  171  ls
+  172  git clone https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  173  ls
+  174  rm -r git_assignment_HeroVired/
+  175  ls
+  176  rm -r git_assignment_HeroVired/
+  177  rm git_assignment_HeroVired/
+  178  rmdir git_assignment_HeroVired/
+  179  rm -rf git_assignment_HeroVired/
+  180  ls
+  181  git clone https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  182  ls
+  183  cd git
+  184  cd git_assignment_HeroVired/
+  185  git branch r
+  186  git branch -r
+  187  ls
+  188  git checkout dev
+  189  ls
+  190  git chekout hotfix
+  191  git checkout hotfix
+  192  git checkout b hotfix
+  193  ls
+  194  git branch hotfix
+  195  git branch
+  196  git checkout hotfix
+  197  ls
+  198  git add .
+  199  git commit m "added correction in division function"
+  200  git commit -m "added correction in division function"
+  201  git checkout dev
+  202  git checkout hotfix 
+  203  ls
+  204  cat calculator_plus_app.py 
+  205  git push origin hotfix
+  206  git branch -r
+  207  git checkout dev
+  208  git merge hotfix
+  209  git add calculator_plus_app.py 
+  210  git commit
+  211  git push origin dev
+  212  git checkout main
+  213  git clone https://github.com/shivamsonari376/git_assignment_HeroVired.git
+  214  cd git_assignment_HeroVired/
+  215  git pull origin main
+  216  git checkout dev
+  217  git merge main
+  218  git branch
+  219  gi push -u origin main
+  220  git merge main
+  221  ls
+  222  git clone https://github.com/shivamsonari376/git_assignment_HeroVired.git
+  223  ls
+  224  rm -rf git_assignment_HeroVired/
+  225  ls
+  226  git clone https://github.com/SyamalaKadmi/git_assignment_HeroVired.git
+  227  git pull origin main
+  228  ls
+  229  cd git_assignment_HeroVired/
+  230  git pull origin main
+  231  git checkout main
+  232  ls
+  233  cd ..
+  234  rm -rf git_assignment_HeroVired/
+  235  ls
+  236  git colne https://github.com/shivamsonari376/git_assignment_HeroVired.git
+  237  git clone https://github.com/shivamsonari376/git_assignment_HeroVired.git
+  238  cd git_assignment_HeroVired/
+  239  ls
+  240  git pull origin main
+  241  git checkout dev
+  242  git merge main
+  243  ls
+  244  git branch
+  245  git checkout main
+  246  git checkout dev
+  247  git merge main
+  248  git add circle-area.py rectangle-area.py
+  249  git commit
+  250  git checkout dev
+  251  ls
+  252  git merge main
+  253  git push -u origin dev
+  254  ls
+  255  sudo apt-get install git-lfs
+  256  git clone https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  257  git branch
+  258  git branch -r
+  259  cd git_assignment_HeroVired/
+  260  git branch -r
+  261  git lfs install
+  262  git checkout -b lfs
+  263  git branch
+  264  git lfs track "*.zip"
+  265  git add .
+  266  git commit -m "Added CentOs zip file"
+  267  git push origin lfs
+  268  ls
+  269  rm CentOS-Stream-9-latest-x86_64-dvd1.zip 
+  270  ls
+  271  git add .
+  272  git commit -m "Added zip file"
+  273  git push origin lfs
+  274  ls
+  275  git branch -r
+  276  git remote -v
+  277  git push origin lfs 
+  278  ls
+  279  rm zip_test.zip 
+  280  ls
+  281  git status
+  282  git add .
+  283  git commit -m "Added zip file"
+  284  git push origin lfs 
+  285  git add .gitattributes"
+  286  git commit -m "Track .zip files using Git LFS"
+  287  git add .gitattributes
+  288  git commit -m "Track .zip files using Git LFS"
+  289  [200~git add .gitattributes
+  290  git commit -m "Track .zip files using Git LFS"
+  291  git add zip_test.zip
+  292  git add postman-linux-x64.tar.gz 
+  293  git commit -m "Add .zip file using Git LFS"
+  294  git push origin lfs
+  295  cd ..
+  296  git clone https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  297  cd git_assignment_HeroVired/
+  298  ls
+  299  git chekout -b lfs
+  300  git checkout -b lfs
+  301  git lfs install
+  302  git lfs track "*.zip"
+  303  git add .gitattributes
+  304  git commit -m "Track .zip files using Git lfs"
+  305  git add postman-linux-x64.tar.gz 
+  306  git commit -m "Added postman.tar.gz file for test"
+  307  git push origin lfs
+  308  git rm --cached postman-linux-x64.tar.gz 
+  309  git commit -m "Removed large file from history"
+  310  bfg --delete-files postman-linux-x64.tar.gz
+  311  sudo snap install bfg-repo-cleaner
+  312  bfg --delete-files postman-linux-x64.tar.gz
+  313  git reflog expire --expire=now --all && git gc --prune=now --aggressive
+  314  git push --force
+  315  git lfs track "postman-linux-x64.tar.gz"
+  316  git add .gitattributes
+  317  git add postman-linux-x64.tar.gz 
+  318  git commit -m "Added postman.zip file for test upload"
+  319  git push origin lfs
+  320  cd ..
+  321  ls
+  322  cd
+  323  l
+  324  ls
+  325  cd Dowloads
+  326  cd Downloads/
+  327  ls
+  328  git clone https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  329  cd ..
+  330  ls
+  331  cd /opt
+  332  ls
+  333  cd project/
+  334  mkdir day2bash
+  335  ls
+  336  cd day2bash/
+  337  ls
+  338  pwd
+  339  ls l
+  340  ls
+  341  cd ..
+  342  ls 
+  343  ls -l
+  344  cd day2bash/
+  345  cd ..
+  346  rm -rf day2bash/
+  347  ls
+  348  cd ..
+  349  mkdir day2bash
+  350  sudo chmod 777 day2bash
+  351  ls
+  352  cd project/
+  353  mkdir day2bash
+  354  cd day2bash/
+  355  ls
+  356  echo "Hello World"
+  357  mkdir  devops_practise
+  358  ls
+  359  cd devops_practise/
+  360  touch test.txt
+  361  ls
+  362  namo script.sh
+  363  nano script.sh
+  364  ls
+  365  ls -l
+  366  chmod +x script.sh 
+  367  ls
+  368  ./ script.sh 
+  369  ./script.sh 
+  370  ls -ltr
+  371  ./script.sh 
+  372  cat script.sh 
+  373  bash script.sh 
+  374  clear
+  375  ls
+  376  nano script.sh 
+  377  bash script.sh 
+  378  namo script.sh 
+  379  nano script.sh 
+  380  bash script.sh 
+  381  nano script.sh 
+  382  ./script.sh 
+  383  nano script.sh 
+  384  ./script.sh 
+  385  ls
+  386  nano greet.sh
+  387  ls -l
+  388  chmod +x greet.sh 
+  389  ls -l
+  390  bash greet.sh 
+  391  cat geet
+  392  cat greet.sh 
+  393  namo greet.sh 
+  394  nano greet.sh 
+  395  bash greet.sh 
+  396  nano greet.sh 
+  397  ./greet.sh 
+  398  nano greet.sh 
+  399  ./greet.sh 
+  400  nano greet.sh 
+  401  ./greet.sh 
+  402  cat greet.sh 
+  403  nano greet.sh 
+  404  ./greet.sh 
+  405  cat greet.sh 
+  406  nano greet.sh 
+  407  ./greet.sh 
+  408  nano greet.sh 
+  409  ./greet.sh 
+  410  nano greet.sh 
+  411  ./greet.sh 
+  412  nano greet.sh 
+  413  ./greet.sh 
+  414  nano greet.sh 
+  415  ./greet.sh 
+  416  nano greet.sh 
+  417  ./greet.sh 
+  418  nano grade.sh
+  419  ls l\
+  420  ls -l
+  421  chmod +x grade.sh 
+  422  ./grade.sh 
+  423  ls l
+  424  ls -l
+  425  ./grade.sh 
+  426  cat grade.sh 
+  427  nano grade.sh 
+  428  cat grade.sh 
+  429  ./grade.sh 
+  430  nano fil_finder.sh
+  431  nano fil_finder.sh 
+  432  ls
+  433  chmod +x fil_finder.sh 
+  434  ./fil_finder.sh 
+  435  cat fil_finder.sh 
+  436  nano fil_finder.sh 
+  437  ls
+  438  ./file_finder.sh 
+  439  cat file_finder.sh 
+  440  cat grade.sh 
+  441  nano forloop.sh
+  442  ls
+  443  sudo ./forloop.sh
+  444  chmod +x forloop.sh
+  445  ./forloop.sh 
+  446  nano forloop.sh 
+  447  cd /opt
+  448  ls
+  449  cd project/
+  450  ls
+  451  cd day2bash/
+  452  ls
+  453  cd devops_practise/
+  454  ls
+  455  nano forloop.sh
+  456  ls -l
+  457  ./forloop.sh 
+  458  nano forloop.sh
+  459  ./forloop.sh 
+  460  nano forloop.sh
+  461  ./forloop.sh 
+  462  nano for
+  463  nano forloop.sh
+  464  ./forloop.sh
+  465  touch cal.sh
+  466  chmod 777 cal.sh 
+  467  ls -l
+  468  nano cal.sh 
+  469  ls
+  470  ls -l
+  471  ./cal.sh 
+  472  cat cal.sh 
+  473  /bin/python3 /home/rajiv-sharma/Desktop/git_assignment_HeroVired/calculator_plus_app.py
+  474  ls
+  475  pwd
+  476  git clone https://github.com/rajivsharma92/git_assignment_HeroVired.git
+  477  cd git_assignment_HeroVired/
+  478  ls
+  479  git checkout -b geometry-calculator origin/dev
+  480  ls
+  481  cat calculator_plus_app.py 
+  482  git checkout dev 
+  483  git pull
+  484  git branch
+  485  git checkout geometry-calculator 
+  486  git pull
+  487  git checkout -b feature/circle-area
+  488  ls
+  489  git branch
+  490  git add .
+  491  git commit -m "circle area feature added"
+  492  git push origin feature/circle-area 
+  493  git status
+  494  git log
+  495  git checkout feature/rectangle-area
+  496  git branch
+  497  git checkout dev
+  498  ls
+  499  cat calculator_plus_app.py 
+  500  git checkout -b feaure/rectangle-area
+  501  ls
+  502  git stash
+  503  git status
+  504  git checkout feature/circle-area 
+  505  ls
+  506  git stash pop
+  507  git add .
+  508  git commit -m "CIrcle area feature"
+  509  git push origin feature/rectangle-area
+  510  git branch
+  511  git checkout feature/rectangle-area
+  512  git checkout -b  feature/rectangle-area
+  513  git stash pop
+  514  git add .
+  515  gi commit -m "Rectangle area added"
+  516  git commit -m "Rectangle area added"
+  517  git push origin feature/rectangle-area 
+  518  cd
+  519  top
+  520  curl
+  521  ping
+  522  ping www.github.com
+  523  traceroute www.github.com
+  524  sudo apt install inetutils-traceroute 
+  525  traceroute www.github.com
+  526  iptabels
+  527  df
+  528  du
+  529  du -sh /var/log/*
+  530  ls
+  531  cd Batch8/
+  532  ls
+  533  touch git_assignment.txt
+  534  ls
+  535  nano git_assignment.txt 
+  536  cat git_assignment.txt 
+  537  sudo apt upgrade
+  538  sudo apt update
+  539  ls
+  540  cd 
+  541  ls
+  542  hello
+  543  ls
+  544  cd Downloads/
+  545  ls
+  546  car Resume_Rajiv.pdf 
+  547  cat Resume_Rajiv.pdf 
+  548  ls
+  549  clear
+  550  exit
+  551  pwd
+  552  cd /opt
+  553  ls
+  554  cd proje
+  555  cd project/
+  556  ls
+  557  cd day2bash/
+  558  ls
+  559  cd devops_practise/
+  560  ls
+  561  cat script.sh 
+  562  ls
+  563  cat greet.sh 
+  564  nano greet.sh 
+  565  ./greet.sh 
+  566  df -h
+  567  cd ..
+  568  cd
+  569  df -h
+  570  du -sh /var/log
+  571  du -h -max-deepth-1 /home
+  572  du -h -max-depth-1 /home
+  573  du -h --max-depth-1 /home
+  574  du -h --max-depth=1 /home
+  575  du -h /home
+  576  du -h /home | less
+  577  du -h /home/Batch8
+  578  du -h /home/Batch8/
+  579  du -h /home/rajiv-sharma/Batch8/
+  580  du -h /home/rajiv-sharma/Batch8/venv
+  581  du -h --maxdepth=1 /home/rajiv-sharma/Batch8/venv
+  582  du -h --max-depth=1 /home/rajiv-sharma/Batch8/venv
+  583  ls -ltra
+  584  ls -a
+  585  ls -R
+  586  ls -R | less
+  587  pwd
+  588  mkdir reports
+  589  grep H6.csv > reports/H6.csv
+  590  ls
+  591  cd reports/
+  592  ls
+  593  cat H6.csv 
+  594  ls -l
+  595  chmod 466 H6.csv 
+  596  ls -l
+  597  chmod 766 H6.csv 
+  598  ls 
+  599  ls -l
+  600  chmod 744 H6.csv 
+  601  ls l
+  602  ls -l
+  603  ./H6.csv 
+  604  ls
+  605  nano demo.sh
+  606  ls
+  607  cp demo.sh /home/rajiv-sharma/demo.sh
+  608  cd ..
+  609  ls
+  610  rm -rf reports/
+  611  ls
+  612  ls -l demo
+  613  ls -l demo.sh 
+  614  nano demo.sh 
+  615  ls -l demo.sh 
+  616  nano demo.sh 
+  617  ls -l demo.sh 
+  618  nano demo.sh 
+  619  chmod u+x demo.sh 
+  620  ls l demo.sh 
+  621  ls -l demo.sh 
+  622  ./demo.sh 
+  623  ls ltr
+  624  ls -ltr
+  625  cd report/
+  626  ls
+  627  demo.txt
+  628  cd ..
+  629  ls
+  630  cat demo.
+  631  cat demo.txt 
+  632  ./demo.sh 
+  633  nano demo.sh 
+  634  ./demo.sh 
+  635  cd report/
+  636  ls
+  637  nano demo.s
+  638  cd ..
+  639  nano demo.sh 
+  640  ./demo.sh
+  641  ls
+  642  cd report/
+  643  ls
+  644  cat demo.txt 
+  645  cd ..
+  646  ls
+  647  mkdir scripts
+  648  cd scripts/
+  649  ls
+  650  nano var_use.sh
+  651  ls
+  652  ls -l var_use.sh 
+  653  chmod 744 var_use.sh 
+  654  ls -l
+  655  ./var_use.sh 
+  656  nano var_use.sh 
+  657  ./var_use.sh 
+  658  nano var_use.sh 
+  659  ./var_use.sh 
+  660  cd
+  661  ls
+  662  cd Desktop/
+  663  ls
+  664  mkdir project
+  665  ls
+  666  touch /project/notes.txt
+  667  touch ./project/notes.txt
+  668  ls -la project
+  669  ls -l project
+  670  cp notes.txt ./project/project_backup.txt
+  671  cp ./project/ notes.txt ./project/project_backup.txt
+  672  cp ./project/ notes.txt /project/project_backup.txt
+  673  cp /project/ notes.txt ./project/project_backup.txt
+  674  cp /project/ notes.txt /project/project_backup.txt
+  675  cp $(pwd) /project/ notes.txt $(pwd)/project/project_backup.txt
+  676  ls
+  677  cd project/
+  678  ls
+  679  cd ..
+  680  cp notes.txt $
+  681  cp notes.txt $(pwd)/project/project_backup.txt
+  682  cp $(pwd)/project/notes.txt $(pwd)/project/project_backup.txt
+  683  ls -l project
+  684  cp $(pwd)/project/notes.txt $(pwd)/project/project_backup.txt
+  685  ls project
+  686  cp -r $(pwd)/project $(pwd)/project_backup
+  687  ls
+  688  cd project_backup/
+  689  ls
+  690  cd
+  691  ls
+  692  cd Desktop/
+  693  ls
+  694  rm ./project/project_backup.txt 
+  695  ls project
+  696  rm -rf project_backup/
+  697  ls
+  698  cd project/
+  699  touch test_script.sh
+  700  ls -l
+  701  nano test_script.sh 
+  702  ./test_Script.sh
+  703  ./test_script.sh
+  704  chmod 755 test_script.sh 
+  705  ls -l
+  706  chmod 644 notes.txt 
+  707  ls -lt
+  708  ./test_script.sh 
+  709  cat test_script.sh 
+  710  nano test_script.sh 
+  711  ./test_script.sh 
+  712  du -h
+  713  du
+  714  du -h
+  715  ls
+  716  du -sh
+  717  du -sh /home/user
+  718  sudo du -sh /home/user
+  719  sudo du -sh /home
+  720  cd ..
+  721  du -sh ./project
+  722  du -sh /project
+  723  du -sh ./project
+  724  df -h
+  725  df -T
+  726  df
+  727  df -h
+  728  [200~df --output=avail -h | grep -Eo '[0-9.]+[A-Z]' | awk '{sum+=$1} END {print sum}'
+  729  df --output=avail -h | grep -Eo '[0-9.]+[A-Z]' | awk '{sum+=$1} END {print sum}'
+  730  ls -l
+  731  nano backup.sh
+  732  ls
+  733  ls -l backup.sh 
+  734  chmod 744 backup.sh 
+  735  ls -l backup.sh 
+  736  chmod 755 backup.sh 
+  737  ls -l backup.sh 
+  738  ./backup.sh 
+  739  ls
+  740  cd project
+  741  ls
+  742  cd ..
+  743  cd project_backup/
+  744  ls
+  745  cd ..
+  746  ls
+  747  cd Desktop/
+  748  ls
+  749  nano backup.sh 
+  750  cd ..
+  751  .cd ~
+  752  cd ~
+  753  ls
+  754  cd Desktop/
+  755  ./backup.sh 
+  756  nano backup.sh 
+  757  ./backup.sh 
+  758  ls
+  759  cd project
+  760  cd ..
+  761  cd project_backup/
+  762  ls
+  763  cat backup_log.txt 
+  764  cd ..
+  765  ./backup.sh 
+  766  ls
+  767  ls -l project_backup/
+  768  cd project
+  769  ls
+  770  cat notes.txt 
+  771  sed -i 's/first/second/g' notes.txt 
+  772  ls ltr
+  773  ls -ltr
+  774  cat notes.txt 
+  775  sed -i 's/second/first/g' notes.txt 
+  776  cat notes.txt 
+  777  sed 's/first/second'  's/first/second' notes.txt 
+  778  sed 's/first/second'  's/first/second/' notes.txt 
+  779  sed 's/first/second/' notes.txt 
+  780  ls -ltr
+  781  cat notes.txt 
+  782  /bin/python3 /home/rajiv-sharma/Desktop/python_prac-09-09-24/variable.py
+  783  /bin/python3 /home/rajiv-sharma/Desktop/python_prac-09-09-24/apostrophe.py
+  784  history
+  785  echo random command one
+  786  echo random command two
+  787  echo random command three
+  788  history
+  789  mkdir /tmp/trash
+  790  cp -R ~/.* temp/trash
+  791  cp -R ~/.* $(pwd)/temp/trash
+  792  cp -R ~/.* $(pwd)temp/trash
+  793  cp -R ~/.* $(pwd)/temp/trash
+  794  cp -R ~/.* temp/trash
+  795  ls
+  796  mkdir /tmp/trash
+  797  ls
+  798  cp -R ~/.* tmp/trash
+  799  ls
+  800  ls ltr
+  801  ls -lta
+  802  sudo cp -R ~/.* tmp/trash
+  803  cp -R /tmp ~
+  804  sudo cp -R ~/.* tmp/trash
+  805  ls
+  806  cd tmp/
+  807  ls
+  808  cd
+  809  ls
+  810  git clone https://github.com/sandervanvugt/linfun
+  811  ls
+  812  cd linfun/
+  813  ls
+  814  ls ltr
+  815  ls -ltr
+  816  cat countdown 
+  817  ln countdown counter
+  818  ls -il countdown counter
+  819  vim countdown 
+  820  nano countdown 
+  821  ln 
+  822  ls -il countdown counter
+  823  ln -s counter teller
+  824  ls -il teller count*
+  825  rm counter 
+  826  ls
+  827  ls -il countdown counter
+  828  ls
+  829  cat teller 
+  830  rm teller 
+  831  ls
+  832  lsblk
+  833  cd ..
+  834  ls /boot
+  835  sudo find / -name "host" 2>/dev/null
+  836  sudo find / -type f -name "host" 2>/dev/null
+  837  sudo find / -user rajiv -type -f
+  838  df -h
+  839  sudo find / -size +500M
+  840  sudo i
+  841  su
+  842  su i
+  843  su -i
+  844  rootuser
+  845  root
+  846  sudo root
+  847  su -i
+  848  sudo i
+  849  su
+  850  sudo su
+  851  ls
+  852  cd Downloads/
+  853  ls
+  854  rm CentOS-Stream-9-latest-x86_64-dvd1.zip 
+  855  ls
+  856  sudo tar -cvf /temp/etc
+  857  sudo tar -cvf /temp/etc temp
+  858  sudo tar -cvf /temp/etc zip_test
+  859  sudo tar -cvf /temp/etc $(pwd)/zip_test
+  860  ls
+  861  cd zip_test/
+  862  ls
+  863  cd ..
+  864  cd ,,
+  865  cd ..
+  866  sudo tar -cvf /temp/etc /zip_test
+  867  sudo tar -cvf $(pwd)/temp/etc /zip_test
+  868  mkdir -p $(pwd)/temp
+  869  ls
+  870  sudo tar -cvf $(pwd)/temp/etc.tar /zip_test
+  871  sudo tar -cvf $(pwd)/temp/etc.tar /Downloads/zip_test
+  872  sudo tar -cvf $(pwd)/temp/etc.tar $(pwd)/Downloads/zip_test
+  873  cd Downloads/
+  874  ls
+  875  cd zip_test/
+  876  ls
+  877  ls -ltr
+  878  cd ..
+  879  ls ltr
+  880  ls -ltr
+  881  tar -tvf $(pwd)/temp/etc.tar
+  882  cd ..
+  883  tar -tvf $(pwd)/temp/etc.tar
+  884  ls
+  885  cd tmp/
+  886  ls
+  887  cd ..
+  888  sudo tar -cvf $(pwd)/temp/etc.tar $(pwd)/Downloads/zip_test
+  889  ls
+  890  cd DOwn
+  891  cd Downloads/
+  892  ls
+  893  cdc ..
+  894  cd ..
+  895  sudo tar -cvf $(pwd)/temp/etc.tar $(pwd)/Downloads/zip
+  896  sudo tar -cvf $(pwd)/temp/etc.tar $(pwd)/Downloads/zip \;
+  897  ls
+  898  vim
+  899  sudo apt install vim
+  900  vim
+  901  sudo apt update
+  902  sudo apt upgrade
+  903  history
+  904  sudo apt vim
+  905  vim
+  906  sudo apt install vim
+  907  ls
+  908  vim demo.txt 
+  909  sudo grep .py *
+  910  ls
+  911  sudo grep -i .py *
+  912  sudo grep -i .py * -type f
+  913  sudo grep -i -type f .py * 
+  914  sudo grep -i -type  .py * 
+  915  sudo grep -i -type .py * 
+  916  sudo grep -i .py * 
+  917  man -k user | less
+  918  man grep | less
+  919  ls
+  920  ls /temp
+  921  ls /tmp
+  922  ls /DevOps-8/password_strength_checker.py 
+  923  tar cvf /home/rajiv-sharma/myarchive.tar /home/rajiv-sharma/Desktop/backup.sh 
+  924  ls
+  925  ls myarchive.tar 
+  926  ls myarchive.tar -ltr
+  927  grep '^l' regex
+  928  grep 'na$' regex
+  929  grep 'py$' regex
+  930  grep 'py$' 
+  931  grep 'py$' Devops
+  932  grep .py
+  933  vim regex
+  934  ls
+  935  ls -ltr
+  936  grep 'py$' regex
+  937  grep '^l' regex
+  938  grep '^.' regex
+  939  grep '^h' regex
+  940  grep '^a' regex
+  941  grep 
+  942  ls
+  943  pwd
+  944  ls
+  945  ls -lta
+  946  grep -a
+  947  sed -n regex
+  948  sed -n -1p regex
+  949  sed -n -5p regex
+  950  sed -n 5p regex
+  951  sed -n 1p regex
+  952  sed -i s/py/pp/g regex
+  953  sed -n 1p regex
+  954  echo one > one.conf
+  955  echo one > two.conf
+  956  echo one> three.conf
+  957  for i in *conf; do echo $1; done
+  958  ls
+  959  echo one one.conf
+  960  echo one > one.conf
+  961  echo one > two.conf
+  962  echo one> three.conf
+  963  for i in *conf; do echo $1; done
+  964  ls
+  965  cat one.conf 
+  966  echo one > three.conf
+  967  echo one > one.conf
+  968  echo one > two.conf
+  969  for i in *conf; do echo $1; done
+  970  ls
+  971  for i in *conf; do echo $1; done
+  972  for i in *conf; do sed -i 's/one/million/'   $1; done
+  973  for i in *conf; do sed -i 's/one/million/' $1; done
+  974  for i in *conf; do echo $1; done
+  975  ls -ltr
+  976  env
+  977  echo $SHELL
+  978  head /etc/services 
+  979  cat /etc/services 
+  980  sort < /etc/services 
+  981  grep -a
+  982  git clone https://github.com/sandervanvugt/linfun
+  983  ls
+  984  ls >
+  985  ls > outfile
+  986  ls
+  987  cat outfile 
+  988  who > outfile 
+  989  ls
+  990  cat outfile 
+  991  grep -R 
+  992  grep -R root /etc 2>dev/null
+  993  grep -R root /etc &>/dev/null
+  994  ls
+  995  history
+  996  echo $HISTFILESIZE 
+  997  echo $HISTFILE
+  998  echo $HISTSIZE 
+  999  echo $HISTCMD 
+ 1000  history -w
+ 1001  pwd
+ 1002  ls
+ 1003  ls -lta
+ 1004  grep -a
+ 1005  sed -n regex
+ 1006  sed -n -1p regex
+ 1007  sed -n -5p regex
+ 1008  sed -n 5p regex
+ 1009  sed -n 1p regex
+ 1010  sed -i s/py/pp/g regex
+ 1011  sed -n 1p regex
+ 1012  echo one > one.conf
+ 1013  echo one > two.conf
+ 1014  echo one> three.conf
+ 1015  for i in *conf; do echo $1; done
+ 1016  ls
+ 1017  echo one one.conf
+ 1018  echo one > one.conf
+ 1019  echo one > two.conf
+ 1020  echo one> three.conf
+ 1021  for i in *conf; do echo $1; done
+ 1022  ls
+ 1023  cat one.conf 
+ 1024  echo one > three.conf
+ 1025  echo one > one.conf
+ 1026  echo one > two.conf
+ 1027  for i in *conf; do echo $1; done
+ 1028  ls
+ 1029  for i in *conf; do echo $1; done
+ 1030  for i in *conf; do sed -i 's/one/million/'   $1; done
+ 1031  for i in *conf; do sed -i 's/one/million/' $1; done
+ 1032  for i in *conf; do echo $1; done
+ 1033  ls -ltr
+ 1034  env
+ 1035  echo $SHELL
+ 1036  head /etc/services 
+ 1037  cat /etc/services 
+ 1038  sort < /etc/services 
+ 1039  grep -a
+ 1040  git clone https://github.com/sandervanvugt/linfun
+ 1041  ls
+ 1042  ls >
+ 1043  ls > outfile
+ 1044  ls
+ 1045  cat outfile 
+ 1046  who > outfile 
+ 1047  ls
+ 1048  cat outfile 
+ 1049  grep -R 
+ 1050  grep -R root /etc 2>dev/null
+ 1051  grep -R root /etc &>/dev/null
+ 1052  ls
+ 1053  history
+ 1054  echo $HISTFILESIZE 
+ 1055  echo $HISTFILE
+ 1056  echo $HISTSIZE 
+ 1057  echo $HISTCMD 
+ 1058  history -w
+ 1059  ls
+ 1060  history
+ 1061  alias lal='ls -lta'
+ 1062  lal
+ 1063  ls -a
+ 1064  vim .bashrc
+ 1065  ls
+ 1066  lal
+ 1067  history
+ 1068  vim .bashrc
+ 1069  rajiv
+ 1070  lal
+ 1071  rajiv
+ 1072  cat .bashrc 
+ 1073  vim .bashrc
+ 1074  clear
+ 1075  sleep infinity
+ 1076  bg
+ 1077  sleep 500&
+ 1078  jobs
+ 1079  fg 1
+ 1080  kill 12007
+ 1081  kill 5488
+ 1082  jobs
+ 1083  sleep 500&
+ 1084  ps aux | grep sleep
+ 1085  kill -9 5489
+ 1086  job
+ 1087  jobs
+ 1088  sleep infinity
+ 1089  bg
+ 1090  jobs
+ 1091  ps aux | grep sleep
+ 1092  kill 5517
+ 1093  jobs
+ 1094  ps aux | grep sleep
+ 1095  top
+ 1096  jobs
+ 1097  ps aux | grep sleep
+ 1098  top
+ 1099  ls
+ 1100  jobs
+ 1101  ps aux | grep sleep
+ 1102  kill 5350
+ 1103  sudo -i
+ 1104  ls
+ 1105  history jobs
+ 1106  jobs
+ 1107  top
+ 1108  ps fax | less
+ 1109  su -rajiv-sharma
+ 1110  user rajiv-sharma
+ 1111  sudo apt install user
+ 1112  clear
+ 1113  pwd
+ 1114  whoami
+ 1115  ls l
+ 1116  ls -l
+ 1117  ls -ltr
+ 1118  ls
+ 1119  cd Desktop/
+ 1120  ls
+ 1121  mkdir linux_assignment
+ 1122  ls
+ 1123  cd linux_assignment/
+ 1124  ls
+ 1125  vim dir.sh
+ 1126  ls
+ 1127  ls l
+ 1128  ls -l
+ 1129  chmod 755 dir.sh 
+ 1130  ls
+ 1131  ./dir.sh 
+ 1132  ls
+ 1133  ls -l home
+ 1134  ls
+ 1135  rm -rf home/
+ 1136  ls
+ 1137  nano create_dir.sh
+ 1138  ls
+ 1139  chmod 755 create_dir.sh 
+ 1140  ls
+ 1141  ./create_dir.sh 
+ 1142  ls
+ 1143  cd
+ 1144  ls
+ 1145  pwd
+ 1146  ls
+ 1147  ls -ltr
+ 1148  rm -rf myarchive.tar 
+ 1149  ls
+ 1150  cat demo.txt 
+ 1151  rm demo.txt 
+ 1152  ls
+ 1153  cat setup_project.sh 
+ 1154  ls
+ 1155  cd Desktop/
+ 1156  ls
+ 1157  cd linux_assignment/
+ 1158  nano dir.sh 
+ 1159  cd
+ 1160  ls
+ 1161  cd ..
+ 1162  ls
+ 1163  ls -la
+ 1164  cd ra
+ 1165  cd rajiv-sharma/
+ 1166  ls
+ 1167  sudo apt install tree
+ 1168  ls
+ 1169  cd Desktop/
+ 1170  cd linux_assignment/
+ 1171  ls
+ 1172  nano dir.sh 
+ 1173  ls
+ 1174  ./dir.sh 
+ 1175  ls
+ 1176  ls l ./
+ 1177  ls -l /
+ 1178  ls -l /home
+ 1179  ls -l /home/rajiv-sharma/
+ 1180  clear
+ 1181  ./dir.sh 
+ 1182  sudo ./dir.sh 
+ 1183  ls -l /home
+ 1184  ls -l /home | tree
+ 1185  tree /home
+ 1186  cd
+ 1187  ls
+ 1188  man / woman
+ 1189  man ls
+ 1190  man pwd
+ 1191  pwd -P
+ 1192  pwd -L
+ 1193  who -a
+ 1194  ls
+ 1195  ls -s
+ 1196  ls -S
+ 1197  ls
+ 1198  ls -Rs Desktop/
+ 1199  ls -RS Desktop/
+ 1200  cal
+ 1201  sudo apt install ncal
+ 1202  cal
+ 1203  cal jul 1992
+ 1204  date
+ 1205  date "+%T"
+ 1206  date "+%d"
+ 1207  date "+%d %m %Y"
+ 1208  date "+%d- %m- %Y"
+ 1209  clear
+ 1210  lp 
+ 1211  lp pass.txt
+ 1212  lp -n 10 pass.txt
+ 1213  lpq
+ 1214  lprm
+ 1215  ls
+ 1216  clear
+ 1217  nl pass.txt 
+ 1218  nl setup_project.sh 
+ 1219  nl -v5 setup_project.sh 
+ 1220  nl -v5 -i3 setup_project.sh 
+ 1221  clear
+ 1222  nl -v5 -i3 -w20 setup_project.sh 
+ 1223  nl -v5 -i3 -w2 setup_project.sh 
+ 1224  nl -v5 -i3 -w6 setup_project.sh 
+ 1225  clear
+ 1226  tty
+ 1227  who
+ 1228  whoami
+ 1229  who
+ 1230  logname
+ 1231  who am i
+ 1232  am i who
+ 1233  who am i
+ 1234  clear
+ 1235  root
+ 1236  ls
+ 1237  rm rf temp
+ 1238  rm -rf temp
+ 1239  ls
+ 1240  cd bin
+ 1241  cd..
+ 1242  cd ..
+ 1243  cd bin
+ 1244  ls a-
+ 1245  ls -a
+ 1246  cd rajiv-sharma/
+ 1247  ls -a
+ 1248  cd bin
+ 1249  cat .git
+ 1250  cd .git
+ 1251  ls
+ 1252  nl description 
+ 1253  cd
+ 1254  nl -v1 config 
+ 1255  su -i
+ 1256  sudo -i
+ 1257  ls
+ 1258  nano log_analyzer.sh
+ 1259  chmod 755 log_analyzer.sh 
+ 1260  ls
+ 1261  ./log_analyzer.sh 
+ 1262  ls
+ 1263  nl -v1  log_analyzer.sh
+ 1264  ls
+ 1265  cd /opt
+ 1266  ls
+ 1267  cd project/
+ 1268  ls
+ 1269  cat logs.txt 
+ 1270  ls
+ 1271  cd logs
+ 1272  ls
+ 1273  nl -v1 access.log 
+ 1274  nl -v1 error.log 
+ 1275  cd
+ 1276  nl -v1  log_analyzer.sh
+ 1277  touch sample_report.log
+ 1278  nano sample_report.log 
+ 1279  nl -v1 sample_report.log 
+ 1280  ./log_analyzer.sh $(pwd)/sample_report.log
+ 1281  ls
+ 1282  cat log_analysis_report_20240914_142756.txt 
+ 1283  nano log_analyzer.sh 
+ 1284  ./log_analyzer.sh $(pwd)/sample_report.log
+ 1285  ls
+ 1286  nl -v1  log_analyzer.sh
+ 1287  ifconfig
+ 1288  ip
+ 1289  ping www.google.com
+ 1290  ping herovired.com
+ 1291  ping www.herovired.com
+ 1292  traceroute hirovired.com
+ 1293  traceroute herovired.com
+ 1294  ls | more
+ 1295  ls -S
+ 1296  lal
+ 1297  ls -ltrS
+ 1298  clear
+ 1299  ls
+ 1300  whoami
+ 1301  hostname
+ 1302  pwd
+ 1303  clear
+ 1304  awk --version
+ 1305  ls
+ 1306  cat setup_project.sh 
+ 1307  clear
+ 1308  awk --version
+ 1309  clear
+ 1310  awk ' {print $1} ' setup_project.sh 
+ 1311  awk ' {print $2} ' setup_project.sh 
+ 1312  ls -l | awk ' {print $1, $2} '
+ 1313  ls -l | awk ' {print $1, $5} '
+ 1314  ls -l | awk ' {print $1, $4} '
+ 1315  ls -l | awk ' {print $1, $9} '
+ 1316  ls -l | awk ' {print $1, $NF} '
+ 1317  ls
+ 1318  awk '/bash/ {print}' setup_project.sh 
+ 1319  awk '/$/ {print}' setup_project.sh 
+ 1320  awk '/project/ {print}' setup_project.sh 
+ 1321  awk ' /project/ {print} ' setup_project.sh 
+ 1322  cat /etc/passwd
+ 1323  awk -F: ' {print S1} ' /etc/passwd
+ 1324  sudo awk -F: ' {print S1} ' /etc/passwd
+ 1325  echo "Hello Tom"
+ 1326  echo "Hello Tom" | awk { $2="Rajiv"; print $0}'
+ 1327  Rajiv
+ 1328  echo "Hello Tom" | awk' { $2="Rajiv"; print $0} '
+ 1329  echo "Hello Tom" | awk ' { $2="Rajiv"; print $0} '
+ 1330  ls -l
+ 1331  cat setup_project.sh | awk 'length ($0) > 15'
+ 1332  awk ' length ($0) > 15 ' setup_project.sh 
+ 1333  awk ' length ($0) > 30 ' setup_project.sh 
+ 1334  ls -l | awk ' {if ($9 == ".sh") print $0;} '
+ 1335  ls -l | awk ' {if ($9 == ".txt") print $0;} '
+ 1336  ls -l | awk ' {print NF} '
+ 1337  clear
+ 1338  grep --version
+ 1339  pwd
+ 1340  whoami
+ 1341  hostname
+ 1342  clear
+ 1343  cd /
+ 1344  ls
+ 1345  cd
+ 1346  who am i
+ 1347  who --version
+ 1348  ls
+ 1349  ls -l log_analy
+ 1350  ls -l log_analysis_report_2024
+ 1351  ls -l
+ 1352  ls -ltr log_analysis_report_2024
+ 1353  ls -ltr log_analyzer.sh 
+ 1354  ls -d
+ 1355  ls -aS
+ 1356  ls -t
+ 1357  ls -R
+ 1358  clear
+ 1359  ls i
+ 1360  ls -i
+ 1361  ls -l
+ 1362  mkdir sample
+ 1363  ls
+ 1364  cd sample/
+ 1365  ls
+ 1366  cd..
+ 1367  ls
+ 1368  cd
+ 1369  ls
+ 1370  ls l
+ 1371  ls -l
+ 1372  rmdir sample/
+ 1373  ls
+ 1374  ls -t
+ 1375  cd sample/
+ 1376  clear
+ 1377  ls
+ 1378  cat log_analyzer.sh > cp
+ 1379  ls
+ 1380  cat cp
+ 1381  rm cp
+ 1382  ls
+ 1383  clear
+ 1384  ls
+ 1385  cp venv env
+ 1386  cp venv/ -r env
+ 1387  ls
+ 1388  rm -r env
+ 1389  ls
+ 1390  mv demo.sh log_analyzer.sh setup_project.sh -p /scripts
+ 1391  mkdir scripts
+ 1392  ls -l scripts/
+ 1393  mv demo.sh log_analyzer.sh setup_project.sh /scripts
+ 1394  mv demo.sh log_analyzer.sh setup_project.sh  /scripts
+ 1395  mv demo.sh log_analyzer.sh setup_project.sh  $(pwd)/scripts
+ 1396  ls
+ 1397  ls -l scripts/
+ 1398  wc log_analysis_report_2024-09-14_14-29-31.txt 
+ 1399  cat log_analysis_report_2024-09-14_14-29-31.txt 
+ 1400  wc -l log_analysis_report_2024-09-14_14-29-31.txt 
+ 1401  wc -wc log_analysis_report_2024-09-14_14-29-31.txt 
+ 1402  wc log_analysis_report_2024-09-14_14-29-31.txt 
+ 1403  who
+ 1404  who | wc -l
+ 1405  who | wc -l > count.who
+ 1406  ls count.who 
+ 1407  cat count.who 
+ 1408  ls
+ 1409  cmp log_analysis_report_20240914_142756.txt log_analysis_report_2024-09-14_14-29-31.txt 
+ 1410  clear
+ 1411  comm log_analysis_report_2024-09-14_14-29-31.txt log_analysis_report_20240914_142756.txt 
+ 1412  comm -12 log_analysis_report_2024-09-14_14-29-31.txt log_analysis_report_20240914_142756.txt 
+ 1413  cat cfile.lst
+ 1414  cat cfile1.txt
+ 1415  cat cfile1
+ 1416  nano cfile.lst
+ 1417  nano cfile2.lst
+ 1418  mv cfile.lst cfile1.lst
+ 1419  ls
+ 1420  diff cfile1.lst cfile2.lst 
+ 1421  comm cfile1.lst cfile2.lst 
+ 1422  ls
+ 1423  mkdir child child/subchild1 child/subchild2 chid/subchild3 child/subchild1/subsubchild
+ 1424  ls
+ 1425  ls -rl child
+ 1426  ls -R child
+ 1427  rm child
+ 1428  rm -r child
+ 1429  ls
+ 1430  tr -s " " <log_analysis_report_2024-09-14_14-29-31.txt 
+ 1431  cat log_analysis_report_2024-09-14_14-29-31.txt 
+ 1432  tr -s "[a-z]" "[A-Z]" <log_analysis_report_2024-09-14_14-29-31.txt 
+ 1433  tr -s "[a-z]" "[A-Z]" <log_analysis_report_2024-09-14_14-29-31.txt | more
+ 1434  tr -s "$1[a-z]" "[A-Z]" <log_analysis_report_2024-09-14_14-29-31.txt | more
+ 1435  tr -s "$1([a-z]" "[A-Z])" <log_analysis_report_2024-09-14_14-29-31.txt | more
+ 1436  tr -s "$1([a-z]" "[A-Z])" " " <log_analysis_report_2024-09-14_14-29-31.txt | more
+ 1437  tr -s "[a-z]" "[A-Z]" " "  <log_analysis_report_2024-09-14_14-29-31.txt | more
+ 1438  man tr
+ 1439  du
+ 1440  df
+ 1441  df -h
+ 1442  df -h /
+ 1443  df -h /home/rajiv-sharma/
+ 1444  df h /home/user/
+ 1445  df -h /home/user/
+ 1446  df -a -h /home/user/
+ 1447  df -a -h --time /home
+ 1448  du -a -h --time /home
+ 1449  du -a -h --time /home/user
+ 1450  du -a -h --time /home/rajiv-sharma/devops/
+ 1451  du -a -h --time /home/rajiv-sharma/
+ 1452  df -h
+ 1453  df -h /dev/
+ 1454  df -hT /dev/sda1
+ 1455  ls
+ 1456  tar cf archive1.tar *.txt
+ 1457  ls
+ 1458  tar xf archive1.tar 
+ 1459  ls
+ 1460  tar xf archive1.tar archive1
+ 1461  ls
+ 1462  ls ltr
+ 1463  ls -ltr
+ 1464  mkdir newdir
+ 1465  tar xf archive1.tar -C ./newdir/
+ 1466  ls
+ 1467  cd newdir/
+ 1468  ls
+ 1469  clear
+ 1470  cd ..\
+ 1471  cd
+ 1472  ls
+ 1473  tar -cf archive1.tar ./newdir/
+ 1474  ls l newdir/
+ 1475  ls -l newdir/
+ 1476  ls
+ 1477  tar tvf archive1.tar 
+ 1478  tar cf archive1.tar ./newdir/
+ 1479  ls
+ 1480  ls -l newdir/
+ 1481  cd newdir/
+ 1482  ls
+ 1483  tar cf archive2.tar ./newdir/
+ 1484  cd
+ 1485  tar cf archive2.tar ./newdir/
+ 1486  ls
+ 1487  tar xf archive1.tar -C ./newdir/
+ 1488  ls -l newdir/
+ 1489  clear
+ 1490  ls
+ 1491  rm archive
+ 1492  rm -rf archive
+ 1493  rm -rf archive1.tar 
+ 1494  ls
+ 1495  rm archive2.tar 
+ 1496  ls
+ 1497  rm -r newdir/
+ 1498  ls
+ 1499  tar czf archive.tar.gz *.txt
+ 1500  ls
+ 1501  tar tvf archive.tar.gz 
+ 1502  ls
+ 1503  tar xzf archive.tar.gz *.txt ./newfolder
+ 1504  ls
+ 1505  mkdir newfolder
+ 1506  tar xzf archive.tar.gz *.txt ./newfolder
+ 1507  tar xzf archive.tar.gz -C  ./newfolder
+ 1508  ls
+ 1509  ls -l ./newfolder/
+ 1510  ls -ltr
+ 1511  tar xzf archive1.tar *.txt ./newfolder
+ 1512  tar czf archive1.tar *.txt 
+ 1513  ls -ltr
+ 1514  ls -l *.tar
+ 1515  ls -l *.tar*
+ 1516  tar czf archive2.tgz *.txt 
+ 1517  ls -l *.tar*
+ 1518  ls -l *.tar
+ 1519  ls -ltr
+ 1520  tar tvf archive.tar.gz 
+ 1521  tar tvf archive.tar 
+ 1522  tar tvf archive1.tar 
+ 1523  head sample_report.log 
+ 1524  head sample_report.log | nl
+ 1525  head -2 sample_report.log | nl
+ 1526  head -2c sample_report.log | nl
+ 1527  head -2c cfile1 | nl
+ 1528  head -2c cfile1.lst | nl
+ 1529  head -2 cfile1.lst | nl
+ 1530  head 2 cfile1.lst | nl
+ 1531  head cfile1.lst | nl
+ 1532  tail cfile1.lst | nl
+ 1533  tail -3 cfile1.lst | nl
+ 1534  cat cfile1.lst 
+ 1535  head -3 cfile1.lst | tail -2 cfile1.lst | nl
+ 1536  head -3 cfile1.lst | tail cfile1.lst | nl
+ 1537  head -3 cfile1.lst
+ 1538  head -3 cfile1.lst | tail -3 cfile1.lst | nl
+ 1539  head -3 cfile1.lst | tail -2 cfile1.lst | nl
+ 1540  head -2 cfile1.lst | tail -2 cfile1.lst | nl
+ 1541  head -3 cfile1.lst | tail -2 cfile1.lst
+ 1542  head -3 cfile1.lst | tail -2 
+ 1543  clear
+ 1544  ls
+ 1545  cat sample_report.log 
+ 1546  ls -ltr
+ 1547  sudo apt update
+ 1548  sudo upgrade
+ 1549  sudo upgraded
+ 1550  sudo update
+ 1551  sudo apt upgrade
+ 1552  sudo apt update
+ 1553  sudo apt upgrade
+ 1554  sudo apt install nginx
+ 1555  sudo systemctl status nginx
+ 1556  hostname -I
+ 1557  sudo systemctl status nginx
+ 1558  sudo apt install apache2
+ 1559  sudo ufw allow "Apache Full"
+ 1560  sudo systemctl status apache2
+ 1561  sudo systemctl restart apache2
+ 1562  ls
+ 1563  sudo systemctl restart apache2
+ 1564  sudo systemctl status apache2
+ 1565  sudo apt install apache2
+ 1566  sudo apt upgrade
+ 1567  sudo apt install apache2
+ 1568  sudo systemctl status apache2
+ 1569  sudo mkdir /var/www/
+ 1570  cd /var/www/
+ 1571  ls
+ 1572  sudo 755 /var/www
+ 1573  sudo chmod 755 /var/www
+ 1574  ls
+ 1575  cd
+ 1576  sudo systemctl restart apache2
+ 1577  journalctl -xeu apache2.service
+ 1578  cd /etc/apache2/apache2.conf
+ 1579  sudo cd /etc/apache2/apache2.conf
+ 1580  sudo systemctl status apache2
+ 1581  hostname -I
+ 1582  sudo systemctl start apache2
+ 1583  sudo systemctl status apache2
+ 1584  chmod 755 /var
+ 1585  sudo chmod 755 /var
+ 1586  sudo systemctl status apache2
+ 1587  [200~sudo systemctl enable apache2
+ 1588  sudo systemctl enable apache2
+ 1589  sudo systemctl status apache2
+ 1590  cd × apache2.service - The Apache HTTP Server
+ 1591  Sep 15 15:32:08 rajiv-sharma-HP-Notebook systemd[1]: Starting apache2.service - The Apache HTTP Server...
+ 1592  Sep 15 15:32:08 rajiv-sharma-HP-Notebook apachectl[17936]: AH00558: apache2: Could not reliably determine the server's fully qu>
+ 1593  Sep 15 15:32:08 rajiv-sharma-HP-Notebook apachectl[17936]: (2)No such file or directory: AH02291: Cannot access directory '/var>
+ 1594  Sep 15 15:32:08 rajiv-sharma-HP-Notebook apachectl[17936]: (2)No such file or directory: AH02291: Cannot access directory '/var>
+ 1595  Sep 15 15:32:08 rajiv-sharma-HP-Notebook apachectl[17936]: AH00014: Configuration check failed
+ 1596  Sep 15 15:32:08 rajiv-sharma-HP-Notebook systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+ 1597  Sep 15 15:32:08 rajiv-sharma-HP-Notebook systemd[1]: apache2.service: Failed with result 'exit-code'.
+ 1598  Sep 15 15:32:08 rajiv-sharma-HP-Notebook systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+ 1599  ls
+ 1600  cat outfile 
+ 1601  hostname -I
+ 1602  portnumber
+ 1603  grep port ap
+ 1604  sudo ss -tulpn | grep :80
+ 1605  top
+ 1606  sudo ufw allow in "Apache Full"
+ 1607  sudo systemctl status apache2
+ 1608  cd /var/www/html/index.html
+ 1609  cd /var/www/html
+ 1610  cat index.
+ 1611  ls
+ 1612  cat index.html 
+ 1613  nl index.html 
+ 1614  sudo service apache2 start
+ 1615  cd
+ 1616  sudo service apache2 start
+ 1617  cd /var/www/html
+ 1618  ls
+ 1619  cat index.nginx-debian.html 
+ 1620  sudo service apache2 start
+ 1621  sudo systemctl status apache2
+ 1622  cd /var
+ 1623  ls
+ 1624  ls -l
+ 1625  ls -l | cut -2c 
+ 1626  ls -l | cut -2c
+ 1627  ls -l | cut -2c f2
+ 1628  ls -l | cut  f2
+ 1629  cd /etc
+ 1630  ls
+ 1631  ls -ltr
+ 1632  cd apache2/
+ 1633  ls -l
+ 1634  cd sites-available/
+ 1635  ls
+ 1636  ls -l | cut -c 1-3
+ 1637  ls -l | cut -c 13
+ 1638  ls -l | cut -c 14
+ 1639  ls -l | cut -c 14-20
+ 1640  ls -l | cut -d ' ' -f 5-9
+ 1641  ls -l | cut -d ' ' -5f
+ 1642  ls -l | cut -d ' ' -f 5
+ 1643  ls
+ 1644  ls -ltr
+ 1645  ls -l | cut -d ' ' -f 5-9
+ 1646  sudo service apache2 start
+ 1647  sudo systemctl status apache2
+ 1648  cd apache2
+ 1649  sudo tail /var/log/apache2/error.log
+ 1650  cd
+ 1651  sudo tail /var/log/apache2/error.log
+ 1652  sudo tail /var/log/
+ 1653  ls
+ 1654  ls -l
+ 1655  ls -lS
+ 1656  ls -s
+ 1657  ls -S
+ 1658  sudo service apache2 stop
+ 1659  sudo service apache2 status
+ 1660  hostname -I
+ 1661  sudo systemctl status nginx
+ 1662  hostname -I
+ 1663  sudo systemctl start nginx
+ 1664  sudo systemctl restart nginx
+ 1665  sudo systemctl status nginx
+ 1666  sudo systemctl enable nginx
+ 1667  hostname -I
+ 1668  echo "[200~"
+ 1669  server {
+ 1670  touch setupn.txt
+ 1671  nano setupn.txt 
+ 1672  sudo systemctl status nginx.service 
+ 1673  grep port ap
+ 1674  history
+ 1675  history > history16sep.text
+ 1676  ls
+ 1677  cat history16sep.text 
+ 1678  www.war
+ 1679  sudo ss -tulpn | grep nginx
+ 1680  cd /var/www/html
+ 1681  ls
+ 1682  mv index.html backupindex.html
+ 1683  sudo mv index.html backupindex.html
+ 1684  ls
+ 1685  mv index.nginx-debian.html index.html
+ 1686  sudo mv index.nginx-debian.html index.html
+ 1687  cd
+ 1688  ls
+ 1689  sudo -i
+ 1690  pwd
+ 1691  whoami
+ 1692  sudo -get update -y
+ 1693  sudo apt install sendmail mailutils
+ 1694  sudo apt install multt
+ 1695  ls
+ 1696  sudo automation
+ 1697  sudo -i automation
+ 1698  sudo automation -i
+ 1699  user automation
+ 1700  sudo su - automation
+ 1701  git clone https://github.com/NarendraPAutomationEngineer/DockerForBeginners.git
+ 1702  git clone https://github.com/NarendraPAutomationEngineer/DockerTutorialsForBeginners.git
+ 1703  ls
+ 1704  cd DockerTutorialsForBeginners/
+ 1705  ls
+ 1706  ls -R
+ 1707  ls -ltr 2>error
+ 1708  ls
+ 1709  rm error 
+ 1710  ls -ltr 2>error
+ 1711  cat error 
+ 1712  rm error 
+ 1713  cd
+ 1714  ls
+ 1715  df -h
+ 1716  df -h /home/rajiv-sharma/DockerTutorialsForBeginners/
+ 1717  df -a -h /home/rajiv-sharma/DockerTutorialsForBeginners/
+ 1718  du -a -h /home/rajiv-sharma/DockerTutorialsForBeginners/
+ 1719  du -h /home/rajiv-sharma/DockerTutorialsForBeginners/
+ 1720  rm -rf /home/rajiv-sharma/DockerTutorialsForBeginners/*.git
+ 1721  du -h /home/rajiv-sharma/DockerTutorialsForBeginners/
+ 1722  du -h
+ 1723  tar czf Docker.tar.gz /home/rajiv-sharma/DockerTutorialsForBeginners/
+ 1724  tar czf Docker.tar.gz /home/rajiv-sharma/DockerTutorialsForBeginners
+ 1725  ls -ltr
+ 1726  tar tvf Docker.tar.gz 
+ 1727  du -h /home/rajiv-sharma/Docker.tar.gz 
+ 1728  du -h /home/rajiv-sharma/DockerTutorialsForBeginners/
+ 1729  du -a -h /home/rajiv-sharma/Docker.tar.gz 
+ 1730  tar tvf Docker.tar.gz 
+ 1731  tar xf Docker.tar.gz -C /home/rajiv-sharma/
+ 1732  ls
+ 1733  cd newfolder/
+ 1734  ls
+ 1735  ls -l /home
+ 1736  ls -ltr
+ 1737  c
+ 1738  ls -ltr
+ 1739  cd
+ 1740  ls -ltr
+ 1741  cd home
+ 1742  ls
+ 1743  cd rajiv-sharma/
+ 1744  ls
+ 1745  cd
+ 1746  rm -rf home
+ 1747  ls
+ 1748  ls -ltr
+ 1749  head sample_report.log 
+ 1750  head 2c sample_report.log 
+ 1751  head 2 sample_report.log 
+ 1752  head -2 sample_report.log 
+ 1753  head -2c sample_report.log 
+ 1754  ls
+ 1755  tail -2 sample_report.log 
+ 1756  sudo apt install mysql-server
+ 1757  mysql -u root -p
+ 1758  sudo mysql -u root -p
+ 1759  free
+ 1760  free -h
+ 1761  cd ./bin
+ 1762  cd ..
+ 1763  cd ./bin
+ 1764  cd ..
+ 1765  cd home
+ 1766  cd ./bin
+ 1767  cd bin
+ 1768  ls /usr
+ 1769  ls
+ 1770  ls ~ /usr
+ 1771  ls
+ 1772  cd rajiv-sharma/
+ 1773  ls ~
+ 1774  ls -lt
+ 1775  ls -lt --reverse 
+ 1776  ls -ltrh
+ 1777  ls -h
+ 1778  ls -ah
+ 1779  ls -ltr
+ 1780  ls -ltrh
+ 1781  file cfile1.lst 
+ 1782  file one.conf 
+ 1783  less /etc/passwd
+ 1784  cd /var/log
+ 1785  ls -ltrh
+ 1786  cat syslog
+ 1787  cd
+ 1788  ls
+ 1789  ls r*
+ 1790  ls -ltr r*
+ 1791  ls -R report
+ 1792  list report
+ 1793  ls r?
+ 1794  ls -ltr  r?
+ 1795  touch ra.txt
+ 1796  ls -ltr  r?
+ 1797  ls   r?
+ 1798  ls   r?.txt
+ 1799  ls [adc]
+ 1800  ls [adc]*
+ 1801  mkdir dir1 dir2 dir3
+ 1802  ls
+ 1803  cp dir1 ./dir2
+ 1804  cp -rv dir1 ./dir2
+ 1805  ls
+ 1806  ls ltrh dir2/
+ 1807  rm *.tar
+ 1808  ls
+ 1809  ls -l *tar*
+ 1810  git clone https://github.com/sandervanvugat/kubernetes
+ 1811  git clone https://github.com/sandervanvugat/kubernetes.git
+ 1812  minikube start
+ 1813  kubectl get all
+ 1814  minikube start
+ 1815  kubectl get all
+ 1816  ./countdown 
+ 1817  ./countdown 15
+ 1818  ls -lh
+ 1819  ls -lh *.sh
+ 1820  cat kube-setup.sh 
+ 1821  minikube dashboard
+ 1822  clear
+ 1823  kubectl create deploy apptwo --image=nginx --replicas=3
+ 1824  history
+ 1825  clear
+ 1826  kubectl get all
+ 1827  pwd
+ 1828  whoami
+ 1829  minikube dashboard
+ 1830  kubectl --help | less
+ 1831  kubectl completion --help | less
+ 1832  clear
+ 1833  kubectl get all
+ 1834  kubectl api-resources | less
+ 1835  kubectl explain pods
+ 1836  kubectl explain pod-secret
+ 1837  kubectl explain pods.spec | less
+ 1838  kubectl get all
+ 1839  clear
+ 1840  kubectl get all
+ 1841  kubectl get all --selector app=apptwo
+ 1842  kubectl delete pod apptwo-7788f9cd58-h52gm
+ 1843  kubectl get all --selector app=apptwo
+ 1844  kubectl run nginx --image=nginx
+ 1845  kubectl get all
+ 1846  kubectl delte pod nginx
+ 1847  kubectl delete pod nginx
+ 1848  kubectl get all
+ 1849  kubectl run -h \ less
+ 1850  kubectl run -h | less
+ 1851  kubectl get all
+ 1852  kubectl get pods
+ 1853  kubectl get all --showlables
+ 1854  kubectl get all --show-lables
+ 1855  kubectl get all --show-lable
+ 1856  kubectl get all
+ 1857  kubectl get all --selector app=apptwo
+ 1858  kubectl get all --selector app=appone
+ 1859  kubectl get pods
+ 1860  kubectl describe pod apptwo-7788f9cd58-8wzng
+ 1861  kubectl describe deployment
+ 1862  clear
+ 1863  kubectl get pod app
+ 1864  kubectl get pod apptwo
+ 1865  kubectl get all
+ 1866  kubectl createdeploy mydeploy --image=nignix -replicas=3 --dry-run=client -o yaml
+ 1867  kubectl createdeploy mydeploy --image=nignix -replicas=3 --dry-run=client -0 yaml
+ 1868  kubectl create deploy mydeploy --image=nignix -replicas=3 --dry-run=client -0 yaml
+ 1869  kubectl create deploy mydeploy --image=nignix --replicas=3 --dry-run=client -0 yaml
+ 1870  kubectl create deploy mydeploy --image=nignix --replicas=3 --dry-run=client -o yaml
+ 1871  kubectl create deploy mydeploy --image=nignix --replicas=3 --dry-run=client -o yaml >mydeploy.yaml
+ 1872  kubectl apply -f mydeploy.yaml 
+ 1873  kubectl get deploy --show-lables
+ 1874  kubectl get deploy --show-labels
+ 1875  kubectl get deploy
+ 1876  kubectl create -f mydepoly.yaml
+ 1877  kubectl apply -f mydepoly.yaml
+ 1878  kubectl apply -f ./mydepoly.yaml
+ 1879  kubectl apply -f mydepoly.yaml
+ 1880  ls -ltr
+ 1881  kubectl apply -f mydepoly.yaml
+ 1882  cp mydeploy.yaml mydeploy1.yaml
+ 1883  kubectl delete -f mydepoly.yaml
+ 1884  kubectl delete -rf mydepoly.yaml
+ 1885  kubectl delete -f mydepoly.yaml
+ 1886  sudo kubectl delete -f mydepoly.yaml
+ 1887  sudo kubectl delete -f /mydepoly.yaml
+ 1888  sudo kubectl delete -f ./mydepoly.yaml
+ 1889  kubectl delete -f ./mydepoly.yaml
+ 1890  kubectl delete -f mydepoly.yaml
+ 1891  kubectl apply -f mydepoly.yaml
+ 1892  kubectl create -f mydepoly.yaml
+ 1893  kubectl  get ns
+ 1894  kubectl  get pods
+ 1895  kubectl  get pods -A
+ 1896  kubectl create ns secret
+ 1897  kubectl run secretpod --image=nginx -n secret
+ 1898  kub get pods -n secret
+ 1899  kub get pods
+ 1900  kubectl get pods -n secret
+ 1901  kubectl create deploy testdb --image=mariadb --replicas=2
+ 1902  kubectl get all --selector app=testdb
+ 1903  kubectl describe pod testdb-5dcbd55d65-5hcr8
+ 1904  kubectl logs testdb-5dcbd55d65
+ 1905  kubectl logs testdb-5dcbd55d65-5hcr8
+ 1906  kubectl get all --selector app=testdb
+ 1907  kubectl set env -h | less
+ 1908  kubectl set env deployment/testdb MARIADB_ROOT_PASSWORD=password
+ 1909  kubectl get all --selector app=testdb
+ 1910  kubectl exec -it testdb-96f56fbdc-9mbmx
+ 1911  kubectl exec -it testdb-96f56fbdc-9mbmx --sh
+ 1912  kubectl exec -it testdb-96f56fbdc-9mbmx -- sh
+ 1913  kubectl get deploy --show-labels
+ 1914  kubectl version
+ 1915  export PATH=$PATH:/usr/local/bin
+ 1916  complete -o bashdefault -F _kubectl kubectl
+ 1917  kubectl plugin install kubectl-completion
+ 1918  sudo kubectl plugin install kubectl-completion
+ 1919  complete -o bashdefault -F _kubectl kubectl
+ 1920  ls
+ 1921  kubectl plugin install kubectl-completion
+ 1922  kubectl plugin apt install kubectl-completion
+ 1923  kubectl version
+ 1924  sudo apt update
+ 1925  sudo apt install kubectl
+ 1926  kubectl plugin install kubectl-completion
+ 1927  complete -o bashdefault -F _kubectl kubectl
+ 1928  kubectl get all
+ 1929  get all pord
+ 1930  kubectl plugin -h install kubectl-completion
+ 1931  kubectl plugin -h
+ 1932  kubectl krew install kubectl-completion
+ 1933  kubectl plugin list
+ 1934  complete -o bashdefault -F _kubectl kubectl
+ 1935  nano ~/.bashrc
+ 1936  source ~/.bashrc
+ 1937  kubectl plugin install kubectl-completion
+ 1938  omplete -p _kubectl
+ 1939  complete -p _kubectl
+ 1940  kubectl plugin install kubectl-completion
+ 1941  sudo apt update && sudo apt upgrade
+ 1942  kubectl create deploy nginxsvc --image=nginx
+ 1943  kubectl scale deployment nginxsvc -replicas=3
+ 1944  kubectl scale deployment nginxsvc --replicas=3
+ 1945  kubectl expose deploy nginx --port=80
+ 1946  kubectl expose deploy nginxsvc --port=80
+ 1947  kubectl get all --selector app=nginxsvc
+ 1948  kubectl describe svc nginxsvc
+ 1949  kubectl get pods --selector app=nginxsvc
+ 1950  kubectl get pods --selector app=nginxsvc -o wide
+ 1951  kubectl get endpoints
+ 1952  kubectl get svc
+ 1953  curl 10.109.4.90
+ 1954  minikube ssh 
+ 1955  kubectl edit svc nginxsvc
+ 1956  kubectl get svc
+ 1957  minikube ip
+ 1958  curl 192.168.59.100:30153
+ 1959  kubectl get svc
+ 1960  kubectl edit svc nginxsvc
+ 1961  curl 192.168.59.100:30153
+ 1962  cat morevolumes.yaml 
+ 1963  kubectl explain port.spec
+ 1964  kubectl explain port.specvolume
+ 1965  kubectl explain port.specvolume.yaml
+ 1966  kubectl explain port.spec.volume | less
+ 1967  kubectl explain port.spec.volumes | less
+ 1968  kubectl apply -f morevolume.yaml
+ 1969  kubectl apply -f $(pwd)/ morevolume.yaml
+ 1970  kubectl apply -f $(pwd)/morevolume.yaml
+ 1971  kubectl apply -f morevolume.yaml
+ 1972  pwd
+ 1973  kubectl apply -f morevolume.yaml
+ 1974  pwd kubectl
+ 1975  kubectl apply -f morevolume.yaml
+ 1976  sudo kubectl apply -f morevolume.yaml
+ 1977  ls -l  morevolume.yaml
+ 1978  chmod 644 morevolumes.yaml 
+ 1979  kubectl apply -f morevolume.yaml
+ 1980  kubectl apply -f /etc/kubernetes/morevolume.yaml
+ 1981  kubectl apply -f morevolume.yaml
+ 1982  ls -l morevolumes.yaml 
+ 1983  kubectl apply -f morevolume.yaml
+ 1984  chmod 744 morevolumes.yaml 
+ 1985  kubectl apply -f morevolume.yaml
+ 1986  ls -ltr
+ 1987  kubectl apply -f /home/rajiv-sharma/kubernetes/morevolumes.yaml  # Replace with your actual path
+ 1988  kubectl get all
+ 1989  get all pods
+ 1990  kubectl get all pods
+ 1991  kubectl get all pod
+ 1992  kubectl get all 
+ 1993  kubectl apply -f pvc.yaml
+ 1994  kubectl get pvc,pv,storageclass
+ 1995  vim pv-pod.yaml 
+ 1996  kubectl exec -it pvpod -- touch /usr/share/nginx/html/mymooiefile
+ 1997  kubectl exec -it pv-pod -- touch /usr/share/nginx/html/mymooiefile
+ 1998  kubectl get pods podname -o yaml
+ 1999  kubectl get svc
+ 2000  history
+ 2001  history > history_18-10-24
+ 2002  ls
+ 2003  minikube addon
+ 2004  minikube addons
+ 2005  minikube addons ingress
+ 2006  minikube addons enable ingress
+ 2007  kubectl create ing -h
+ 2008  kubectl create ing nginxsvc --rule="myapp.info/=nginxsvc:80"
+ 2009  sudo vim /etc/host
+ 2010  ls /etc/host
+ 2011  sudo ls -l /etc/host
+ 2012  ls -l ./etc/host
+ 2013  minikube ip
+ 2014  minikube stop
+ 2015  sudo systemctl stop docker
+ 2016  cd
+ 2017  get all pods
+ 2018  git clone https://github.com/sandervanvugat/kubernetes.git
+ 2019  git pull https://github.com/sandervanvugat/kubernetes.git
+ 2020  git pull https://github.com/sandervanvugat/kubernetes
+ 2021  git pull https://github.com/sandervanvugt/kubernetes
+ 2022  git log
+ 2023  git status
+ 2024  ls
+ 2025  sudo apt update
+ 2026  clear
+ 2027  sudo apt install nginx
+ 2028  sudo systemctl status nginx.service 
+ 2029  clear
+ 2030  cd /etc/
+ 2031  ls -ls
+ 2032  cd nginx/
+ 2033  cd sites-enabled/
+ 2034  ls
+ 2035  nano default 
+ 2036  clear
+ 2037  cd /var/www/html/
+ 2038  ls
+ 2039  cat index.
+ 2040  cat index.html 
+ 2041  cd etc/ngix/
+ 2042  cd
+ 2043  cd /etc/nginx/
+ 2044  ls
+ 2045  cd sites-available/
+ 2046  ls
+ 2047  cat default 
+ 2048  nl default 
+ 2049  cat default |nl | less
+ 2050  cd
+ 2051  pip install PyPDF2
+ 2052  python3 pip install PyPDF2
+ 2053  python3 pip install pypdf2
+ 2054  sudo pip install pypdf2
+ 2055  apt install pypdf2
+ 2056  apt pip  install pypdf2
+ 2057  sudo apt install python3-pip
+ 2058  pip install pypdf2
+ 2059  python3 -m pip show pypdf2
+ 2060  sudo apt install python3
+ 2061  pip install pypdf2
+ 2062  sudo apt install python3-pypdf2
+ 2063  sudo apt install python3-flask
+ 2064  ls\
+ 2065  ls
+ 2066  nano pdf_Reader.py
+ 2067  ls
+ 2068  nano pdf_Reader.py 
+ 2069  python pdf_Reader.py 
+ 2070  python3 pdf_Reader.py 
+ 2071  cat pdf_Reader.py 
+ 2072  cd
+ 2073  sudo rm -f /usr/local/bin/kubectl
+ 2074  sudo apt-get remove --purge -y kubectl
+ 2075  sudo apt-get autoremove -y
+ 2076  kubectl version
+ 2077  minikube stop
+ 2078  minikube delete
+ 2079  sudo rm -f /usr/local/bin/minikube
+ 2080  rm -rf ~/.minikube
+ 2081  rm -rf ~/.kube
+ 2082  kubectl version
+ 2083  minikube version
+ 2084  kubectl version
+ 2085  echo .
+ 2086  echo ./
+ 2087  echo {a-z}
+ 2088  echo {a..z}
+ 2089  echo {1..100}
+ 2090  echo a{A{1,2},B{1,2}}
+ 2091  echo ~
+ 2092  echo .[!.]*
+ 2093  mkdir {2007..2009}-{01..12}
+ 2094  ls
+ 2095  ls *20
+ 2096  ls 20*
+ 2097  ls
+ 2098  echo $USER
+ 2099  printenv | less
+ 2100  printenv | less | grep user
+ 2101  printenv | less | grep rajiv*
+ 2102  echo $cal
+ 2103  echo $(cal)
+ 2104  echo "$(cal)"
+ 2105  echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER
+ 2106  ls
+ 2107  ls -ltr
+ 2108  pwd
+ 2109  ls
+ 2110  cd Desktop/
+ 2111  ls
+ 2112  cd cicd_testproject/
+ 2113  pws
+ 2114  pwd
+ 2115  ls
+ 2116  cd World_clock/
+ 2117  ls
+ 2118  git branch
+ 2119  gi checkout main
+ 2120  gi checkout -b main
+ 2121  git checkout -b main
+ 2122  git checkout main
+ 2123  ls
+ 2124  cd ..
+ 2125  ls
+ 2126  nano wrapper.sh
+ 2127  ls
+ 2128  sudo ./wrapper.sh 
+ 2129  ls -ltr
+ 2130  ./wrapper.sh 
+ 2131  cat /var/log/update_wrapper.log 
+ 2132  ls
+ 2133  cd World_clock/
+ 2134  ls
+ 2135  git branch
+ 2136  git checkout -b dev
+ 2137  ls
+ 2138  git push -u origin dev
+ 2139  ./wrapper.sh 
+ 2140  cd ..
+ 2141  ./wrapper.sh 
+ 2142  sudo ./wrapper.sh 
+ 2143  export REPO_PATH="/home/rajiv-sharma/Desktop/cicd_testproject/World_clock"
+ 2144  sudo systemctl status nginx
+ 2145  sudo systemctl start nginx
+ 2146  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2147  cd World_clock/
+ 2148  git branch
+ 2149  git branch main
+ 2150  git checkout branch main
+ 2151  git checkout mai
+ 2152  git checkout main 
+ 2153  ls
+ 2154  nano README.md 
+ 2155  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2156  python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2157  sudo python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2158  cat /var/log/git_update_checker.log 
+ 2159  echo $GMAIL_APP_PASSWORD
+ 2160  export GMAIL_APP_PASSWORD="ptjn sedy aoeb ucxt"
+ 2161  sudo python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2162  cat /var/log/git_update_checker.log 
+ 2163  export GMAIL_APP_PASSWORD='gsnu wekq odey gwld
+ 2164  '
+ 2165  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2166  sudo python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2167  cat /var/log/git_update_checker.log 
+ 2168  sudo python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2169  cat /var/log/git_update_checker.log 
+ 2170  sudo python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2171  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2172  cat /var/log/git_update_checker.log 
+ 2173  sudo /home/rajiv-sharma/Desktop/cicd_testproject/pullrequestgit.sh
+ 2174  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2175  cat /var/log/git_update_checker.log 
+ 2176  sudo python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2177  cat /var/log/git_update_checker.log 
+ 2178  sudo /home/rajiv-sharma/Desktop/cicd_testproject/pullrequestgit.sh
+ 2179  nano README.md 
+ 2180  sudo nano README.md 
+ 2181  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2182  sudo /home/rajiv-sharma/Desktop/cicd_testproject/pullrequestgit.sh
+ 2183  git add .
+ 2184  git commit -m "Test"
+ 2185  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2186  git status
+ 2187  sudo nano README.md 
+ 2188  git add README.md 
+ 2189  git commit -m "Resolved test conflicts"
+ 2190  git pull origin main
+ 2191  sudo git pull origin main
+ 2192  git branch
+ 2193  sudo nano README.md 
+ 2194  git add .
+ 2195  git commit -m "Test"
+ 2196  git stash pop
+ 2197  ls
+ 2198  cat README.md 
+ 2199  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2200  cat /var/log/update_wrapper.log 
+ 2201  cat /var/log/*.log
+ 2202  git push origin main
+ 2203  git push origin/main
+ 2204  git push origin main
+ 2205  ls l
+ 2206  cd ..
+ 2207  ls -lt
+ 2208  cd W
+ 2209  cd World_clock/
+ 2210  sudo chown -R rajiv-sharma:rajiv-sharma .git
+ 2211  sudo chmod -R u+rwX .git
+ 2212  git push origin main
+ 2213  git pull origin main
+ 2214  git branch
+ 2215  git add .
+ 2216  git commit -m "Test"
+ 2217  git push origin main
+ 2218  touch README.md 
+ 2219  ls
+ 2220  cat README.md 
+ 2221  git add .
+ 2222  git commit -m "Testing"
+ 2223  git remote -v
+ 2224  git remote set-url origin https://github.com/rajivsharma92/World_clock.git
+ 2225  git push origin main
+ 2226  git fetch origin
+ 2227  git status
+ 2228  git merge origin/main
+ 2229  nano README.md 
+ 2230  git add .
+ 2231  git commit -m "Test"
+ 2232  git push origin main
+ 2233  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2234  nano test_git_update_checker.py
+ 2235  cat test_git_update_checker.py 
+ 2236  ls
+ 2237  /bin/python3 /home/rajiv-sharma/Desktop/beginner_gitupdate/git_update.py
+ 2238  pip install json
+ 2239  pip install os
+ 2240  history > history_18-10-24/bin/python3 /home/rajiv-sharma/Desktop/beginner_gitupdate/git_update.py
+ 2241  cd Desktop/beginner_gitupdate/
+ 2242  ls
+ 2243  git clone https://github.com/rajivsharma92/World_clock.git /home/rajiv-sharma/Desktop/cicd_testproject/World_clock
+ 2244  export GMAIL_APP_PASSWORD='rhjvzofhrnvanogm'
+ 2245  git add .
+ 2246  cd Desktop/cicd_testproject/World_clock/
+ 2247  ls
+ 2248  git add.
+ 2249  git add .
+ 2250  git commit -m "Test"
+ 2251  python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2252  sudo python3 /home/rajiv-sharma/Desktop/cicd_testproject/github_changes.py
+ 2253  cat /var/log/git_update_checker.log 
+ 2254  sudo /home/rajiv-sharma/Desktop/cicd_testproject/pullrequestgit.sh
+ 2255  sudo /home/rajiv-sharma/Desktop/cicd_testproject/wrapper.sh
+ 2256  cd ..
+ 2257  ls
+ 2258  echo $CDPATH
+ 2259  ls
+ 2260  help cd
+ 2261  whatis ls
+ 2262  ls ~ /bin
+ 2263  clear
+ 2264  cd ~
+ 2265  echo D*
+ 2266  echo s*
+ 2267  echo s* | ls ltr
+ 2268  echo s* | ls -ltr
+ 2269  ls -ltr | echo *s
+ 2270  ls -ltr | echo s*
+ 2271  echo $((2 + 2))
+ 2272  echo $(2 + 2)
+ 2273  ls
+ 2274  cd Desktop/beginner_gitupdate/
+ 2275  nano git_check.py
+ 2276  ls
+ 2277  touch git_update.py gitpull.sh wrraper.sh
+ 2278  ls
+ 2279  systemctl status nginx
+ 2280  ls
+ 2281  hostname -I
+ 2282  echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER
+ 2283  nano text_file_backp.sh
+ 2284  ls
+ 2285  chmod u+x text_file_backp.sh
+ 2286  ls
+ 2287  ./text_file_backp.sh /home/rajiv-sharma/
+ 2288  ls -ltr /home/rajiv-sharma/
+ 2289  ls /home/rajiv-sharma/backup_20240924_183155/
+ 2290  nano 3userInformation
+ 2291  ls
+ 2292  chmod u+x 3userInformation 
+ 2293  mv 3userInformation 3userInformation.sh
+ 2294  ls
+ 2295  ./3userInformation.sh 
+ 2296  df
+ 2297  df h
+ 2298  df -h
+ 2299  du
+ 2300  du h
+ 2301  du -h
+ 2302  du -h /home/rajiv-sharma/
+ 2303  ls
+ 2304  nano 4diskUsage.sh
+ 2305  ls
+ 2306  chmod u+x 4diskUsage.sh 
+ 2307  ls
+ 2308  ./ 4diskUsage.sh 
+ 2309  ./4diskUsage.sh 
+ 2310  nano 5filePermissionCheck.sh
+ 2311  ls
+ 2312  nano 6AutomatedBackup.sh
+ 2313  ls
+ 2314  nano 6AutomatedBackup.sh 
+ 2315  nano 7ProcessMonitor.sh
+ 2316  nano 8TextFileAnalysis.sh
+ 2317  nano 9SystemInformationReport.sh
+ 2318  nano 10SimpleCalculator.sh
+ 2319  ls
+ 2320  chmod u+x 5filePermissionCheck.sh 6AutomatedBackup.sh 7ProcessMonitor.sh  8TextFileAnalysis.sh  9SystemInformationReport.sh 10SimpleCalculator.sh 
+ 2321  ls
+ 2322  ls -ls
+ 2323  touch README.md 
+ 2324  tar xf Docker.tar.gz -C /home/rajiv-sharma/
+ 2325  ls
+ 2326  cat README.md 
+ 2327  rm Re=
+ 2328  rm README.md 
+ 2329  ls
+ 2330  clear
+ 2331  ls
+ 2332  ./5filePermissionCheck.sh 1create_dir.sh 
+ 2333  zip -r bash_assignment.zip /home/rajiv-sharma/Desktop/linux_assignment/ 
+ 2334  ls
+ 2335  unzip -l bash_assignment.zip 
+ 2336  unzip -lhr bash_assignment.zip 
+ 2337  unzip -lh bash_assignment.zip 
+ 2338  unzip -l -h bash_assignment.zip 
+ 2339  unzip -l --h bash_assignment.zip 
+ 2340  unzip -l bash_assignment.zip 
+ 2341  zip -r bash_assignment.zip
+ 2342  zip -r bash_assignment.zip $(pwd)
+ 2343  ls
+ 2344  touch assignment_link.txt
+ 2345  /bin/python3 /home/rajiv-sharma/Desktop/beginner_gitupdate/git_update.py
+ 2346  source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+ 2347  cd Desktop/
+ 2348  cd beginner_gitupdate/
+ 2349  python3 git_update.py 
+ 2350  pip install json
+ 2351  pip install requests
+ 2352  pip install os
+ 2353  pip install Flask
+ 2354  pip install pylint
+ 2355  pip install sys
+ 2356  /bin/python3 /home/rajiv-sharma/Desktop/beginner_gitupdate/git_update.py
+ 2357  ls
+ 2358  cd
+ 2359  ls
+ 2360  ls gfs
+ 2361  cd Desktop/beginner_gitupdate/
+ 2362  python3 --version
+ 2363  which python3
+ 2364  conda info -env
+ 2365  ls
+ 2366  source venv active
+ 2367  source activate venv
+ 2368  ls
+ 2369  source bin/activate
+ 2370  source /venv/bin/activate
+ 2371  source  ./venv/bin/activate
+ 2372  cd Desktop/
+ 2373  cd cicd_testproject/
+ 2374  pytest test_git_update_checker.py 
+ 2375  clear
+ 2376  pytest test_git_update_checker.py 
+ 2377  clear
+ 2378  pytest test_git_update_checker.py 
+ 2379  clear
+ 2380  pip install request
+ 2381  pip install requests
+ 2382  cd ..
+ 2383  cd beginner_gitupdate/
+ 2384  ls
+ 2385  python3 git_update.py 
+ 2386  git clone https://github.com/ariannedee/opp-python.git
+ 2387  git clone https://github.com/ariannedee/opp-python
+ 2388  git clone https://github.com/ariannedee/opp-python/
+ 2389  git clone https://github.com/ariannedee/opp-python
+ 2390  git clone https:/github.com/ariannedee/opp-python
+ 2391  git clone https:/github.com/ariannedee/opp-python.git
+ 2392  sudo git clone https://github.com/ariannedee/opp-python
+ 2393  git clone https:/github.com/ariannedee/opp-python.git
+ 2394  git clone https://github.com/ariannedee/oop-python
+ 2395  minikube start --memory=3g --cni=calico
+ 2396  docker build -t countdown .
+ 2397  cat Dockerfile
+ 2398  vim Docketfile
+ 2399  docker build -t countdown .
+ 2400  docker build -t countdown ./dockerfile/
+ 2401  docker run --name customweb -it nginx sh
+ 2402  docker commit customweb nginx:custom
+ 2403  docker images
+ 2404  docker run -it nginx:custom ls -l /tmp/testfile
+ 2405  kubectl get ns
+ 2406  source <(Kubectl completion bash)
+ 2407  source <(kubectl completion bash)
+ 2408  kubectl get pods
+ 2409  kubectl run appone --image=nginx
+ 2410  kubectl get pods
+ 2411  kubectl get pods -A
+ 2412  kubectl create ns secret
+ 2413  kubectl run secretpod --image=nginx -n secret 
+ 2414  kubectl get pods
+ 2415  kubectl get pods -n secret 
+ 2416  kubectl get pods
+ 2417  kubectl get all
+ 2418  vim init_container
+ 2419  kubectl apply -f 25init.yaml
+ 2420  kubectl apply -f init_container 
+ 2421  kubectl get all
+ 2422  nano init_container 
+ 2423  kubectl apply -f init_container 
+ 2424  kubectl get all
+ 2425  nano init_container 
+ 2426  kubectl apply -f init_container 
+ 2427  nano init_container 
+ 2428  kubectl apply -f init_container 
+ 2429  nano init_container 
+ 2430  kubectl apply -f init_container 
+ 2431  kubectl grt all
+ 2432  kubectl get all
+ 2433  docker images
+ 2434  kubectl get -A
+ 2435  kubectl get secret -A
+ 2436  kubectl get pods n secret
+ 2437  kubectl get pods -n secret
+ 2438  kubectl delete -f dockerfile/Dockerfile 
+ 2439  ls -l dockerfile/
+ 2440  kubectl get pods 
+ 2441  ls
+ 2442  kubectl run nginx --image=nginx
+ 2443  kubectl get pods nginx -o yaml | grep restartP
+ 2444  kubectl get pods nginx1 -o yaml | grep restartP
+ 2445  kubectl run nginx1 --image=nginx
+ 2446  kubectl delete pods nginx1
+ 2447  kubectl get pods 
+ 2448  minikube ssh
+ 2449  kubectl get pods
+ 2450  vim sidecar.yaml 
+ 2451  kubectl apply -f sidecar.yaml 
+ 2452  kubectl get pods
+ 2453  cd
+ 2454  minikube stope
+ 2455  minikube stop
+ 2456  ls
+ 2457  clear
+ 2458  ls >demo.txt
+ 2459  ls
+ 2460  cd Desktop/
+ 2461  ls
+ 2462  cd linux_assignment/
+ 2463  ls
+ 2464  ls 2>demo.txt
+ 2465  ls
+ 2466  ls 1>succ.txt 2>error.txt
+ 2467  ls
+ 2468  cat error.txt 
+ 2469  cat succ.txt 
+ 2470  adaa
+ 2471  dsdds 1>succ.txt 2>error.txt 
+ 2472  cat error.txt 
+ 2473  java -version
+ 2474  java -version 1>java_version.txt
+ 2475  ls
+ 2476  java -version 2>java_version.txt
+ 2477  ls
+ 2478  cat java_version.txt 
+ 2479  java -version 1>java_version.txt 2>java_version.txt 
+ 2480  cat java_version.txt 
+ 2481  java -version &>file.txt
+ 2482  ls
+ 2483  cat file.txt 
+ 2484  vi /etc/ssh/sshd_config
+ 2485  cat -n file.txt 
+ 2486  nl file.txt 
+ 2487  ls
+ 2488  cat 4diskUsage.sh 
+ 2489  cat 7ProcessMonitor.sh 
+ 2490  cat 10SimpleCalculator.sh 
+ 2491  head -5 10SimpleCalculator.sh 
+ 2492  head -10 10SimpleCalculator.sh 
+ 2493  awk 'NR>=3 && NR<=10 {print}' 10SimpleCalculator.sh 
+ 2494  sed -n '6,10p' 10SimpleCalculator.sh 
+ 2495  sed -n '3,10p' 10SimpleCalculator.sh 
+ 2496  grep read 10SimpleCalculator.sh 
+ 2497  grep echo 10SimpleCalculator.sh 
+ 2498  grep rajiv 10SimpleCalculator.sh 2>error 
+ 2499  ls
+ 2500  cat error
+ 2501  grep rajiv 10SimpleCalculator.sh |  2>error 
+ 2502  cat error
+ 2503  ls
+ 2504  grep "Result: $" 10SimpleCalculator.sh 
+ 2505  grep "Result:" 10SimpleCalculator.sh 
+ 2506  grep $ 10SimpleCalculator.sh 
+ 2507  grep read 10SimpleCalculator.sh 1create_dir.sh 
+ 2508  grep "bash" *
+ 2509  echo "Hello Rajiv How are you?" | grep "Rajiv"
+ 2510  cat 10SimpleCalculator.sh | grep "bash"
+ 2511  cat 10SimpleCalculator.sh | grep -i "bash"
+ 2512  cat 10SimpleCalculator.sh | grep -i "Bash"
+ 2513  cat 10SimpleCalculator.sh | grep -i "Ba"
+ 2514  cat 10SimpleCalculator.sh | grep -wc "Ba"
+ 2515  cat 10SimpleCalculator.sh | grep -wc -i "Bash"
+ 2516  cat 10SimpleCalculator.sh | grep -w -i "Bash"
+ 2517  cat 10SimpleCalculator.sh | grep -wi "Bash"
+ 2518  cat 10SimpleCalculator.sh | grep -wi "Bash" | wc
+ 2519  Bas
+ 2520  pip install openai
+ 2521  python3 chatAPI.py 
+ 2522  pip install openai
+ 2523  /bin/python3 /home/rajiv-sharma/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/rajiv-sharma/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 2524  /bin/python3 /home/rajiv-sharma/Desktop/PythonAssignment/openai.py
+ 2525  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/openai.py
+ 2526  pip install openai
+ 2527  source /venv
+ 2528  source venv/bin/activate
+ 2529  python3 -m venv venv
+ 2530  source venv/bin/activate
+ 2531  pip install openai
+ 2532  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/openai.py
+ 2533  python3 openai.py 
+ 2534  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/openai.py
+ 2535  source /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/activate
+ 2536  python /home/rajiv-sharma/Desktop/PythonAssignment/openai_test.py
+ 2537  python3 /home/rajiv-sharma/Desktop/PythonAssignment/openai_test.py
+ 2538  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/openai.py
+ 2539  rm -r /home/rajiv-sharma/Desktop/PythonAssignment/__pycache__
+ 2540  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/openai.py
+ 2541  npm install openai
+ 2542  sudo apt install openai
+ 2543  npm init -y
+ 2544  sudo apt install npm
+ 2545  npm install openai
+ 2546  pip install openai
+ 2547  python openai_test.py
+ 2548  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/openai.py
+ 2549  mv openai.py openai_test.py
+ 2550  rm -rf __pycache__
+ 2551  python openai_test.py
+ 2552  pip install openai==0.28.0
+ 2553  python openai_test.py
+ 2554  touch openai_haiku_generator.py
+ 2555  python openai_haiku_generator.py
+ 2556  pip install Flask
+ 2557  touch app.py
+ 2558  mkdir template
+ 2559  nano templates/index.html
+ 2560  cd template/
+ 2561  touch index.html
+ 2562  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/app.py
+ 2563  ls -l /home/rajiv-sharma/Desktop/PythonAssignment/templates/
+ 2564  mv template templates
+ 2565  /home/rajiv-sharma/Desktop/PythonAssignment/.venv/bin/python /home/rajiv-sharma/Desktop/PythonAssignment/app.py
+ 2566  cp -i 10SimpleCalculator.sh cp_demo.sh
+ 2567  ls
+ 2568  cp -ri demo.sh demo1.sh 
+ 2569  cp -ri cp_demo.sh demo1.sh 
+ 2570  ls
+ 2571  df -h
+ 2572  du -h
+ 2573  du -h $(pwd)/
+ 2574  df -h
+ 2575  du -a -h --time
+ 2576  df -h /etc/
+ 2577  tar czf demo.tgz /home/rajiv-sharma/Desktop/linux_assignment/
+ 2578  ls -ltr
+ 2579  tar xzf demo.tgz 
+ 2580  ls -ltr
+ 2581  ls -R home/
+ 2582  rm -rf home/
+ 2583  rm -rf demo.tgz 
+ 2584  ls
+ 2585  tar xzf bash *.sh
+ 2586  ls
+ 2587  tar czf bash.tgz *.sh
+ 2588  ls
+ 2589  tar tvf bash.tgz 
+ 2590  grep -E ^"echo" 10SimpleCalculator.sh 
+ 2591  grep -E "echo" 10SimpleCalculator.sh 
+ 2592  grep -E "^echo" 10SimpleCalculator.sh 
+ 2593  grep -E "^!" 10SimpleCalculator.sh 
+ 2594  grep -E "if" 10SimpleCalculator.sh 
+ 2595  grep -e "if" 10SimpleCalculator.sh 
+ 2596  cat 10SimpleCalculator.sh 
+ 2597  grep -e "read" 10SimpleCalculator.sh 
+ 2598  grep -E "^read" 10SimpleCalculator.sh 
+ 2599  grep -E "read$" 10SimpleCalculator.sh 
+ 2600  grep -E ")$" 10SimpleCalculator.sh 
+ 2601  grep -oE ")$" 10SimpleCalculator.sh 
+ 2602  grep -cE ")$" 10SimpleCalculator.sh 
+ 2603  grep -vE ")$" 10SimpleCalculator.sh 
+ 2604  grep -lE ")$" 10SimpleCalculator.sh 
+ 2605  grep -E "^$" 10SimpleCalculator.sh 
+ 2606  grep -oE "^$" 10SimpleCalculator.sh 
+ 2607  grep -wE "^$" 10SimpleCalculator.sh 
+ 2608  grep -nE "^$" 10SimpleCalculator.sh 
+ 2609  grep _E "\$" 10SimpleCalculator.sh 
+ 2610  grep -E "\$" 10SimpleCalculator.sh 
+ 2611  cat 10SimpleCalculator.sh 
+ 2612  grep -E ".\$" 10SimpleCalculator.sh 
+ 2613  grep -iE "R..t" 10SimpleCalculator.sh 
+ 2614  grep -iE "R....t" 10SimpleCalculator.sh 
+ 2615  grep -iE ":" 10SimpleCalculator.sh 
+ 2616  grep -iE "*lt\b" 10SimpleCalculator.sh 
+ 2617  grep -iE "*or\b" 10SimpleCalculator.sh 
+ 2618  grep -iE "\b*or\b" 10SimpleCalculator.sh 
+ 2619  grep -iE "*or\b" 10SimpleCalculator.sh 
+ 2620  cd Desktop/
+ 2621  mkidr aws
+ 2622  mkdir aws
+ 2623  cd aws
+ 2624  echo "use US-east-1 region.it is allotted to Batch-08" > region.txt
+ 2625  ls
+ 2626  cat region.txt 
+ 2627  chmod u+x  /home/rajiv-sharma/Downloads/DevOpsTest.pem 
+ 2628  ssh  -i /home/rajiv-sharma/Downloads/DevOpsTest.pem ec2-user@ec2-43-205-115-66.ap-south-1.compute.amazonaws.com 
+ 2629  chmod 744  /home/rajiv-sharma/Downloads/DevOpsTest.pem 
+ 2630  ssh  -i /home/rajiv-sharma/Downloads/DevOpsTest.pem ec2-user@ec2-43-205-115-66.ap-south-1.compute.amazonaws.com 
+ 2631  chmod 600 /home/rajiv-sharma/Downloads/DevOpsTest.pem
+ 2632  ssh  -i /home/rajiv-sharma/Downloads/DevOpsTest.pem ec2-user@ec2-43-205-115-66.ap-south-1.compute.amazonaws.com 
+ 2633  ssh  -i /home/rajiv-sharma/Downloads/DevOpsTest.pem ec2-user@ec2-13-126-250-69.ap-south-1.compute.amazonaws.com 
+ 2634  cd
+ 2635  ls
+ 2636  cd Desktop/
+ 2637  cd linux_assignment/
+ 2638  ls
+ 2639  grep -Ei "ec+" 10SimpleCalculator.sh 
+ 2640  grep -Ei "ec+" 10SimpleCalculator.sh | grep w
+ 2641  grep -Ei "ec+" 10SimpleCalculator.sh | grep -w
+ 2642  grep -Ei "ec+" 10SimpleCalculator.sh | grep -w 10SimpleCalculator.sh 
+ 2643  grep -Ei "ec+" 10SimpleCalculator.sh
+ 2644  grep -Ei "[ecRe]" 10SimpleCalculator.sh
+ 2645  grep -Ei "ec|Re" 10SimpleCalculator.sh
+ 2646  grep -Ei "^ec" 10SimpleCalculator.sh
+ 2647  grep -Ei "ec" 10SimpleCalculator.sh
+ 2648  grep -Ei "[a-f]" 10SimpleCalculator.sh
+ 2649  grep -Ei "[a-fj-l]" 10SimpleCalculator.sh
+ 2650  grep -Ei "[a-fj-n]" 10SimpleCalculator.sh
+ 2651  grep -Ei "^[a-fj-n]" 10SimpleCalculator.sh
+ 2652  cat 10SimpleCalculator.sh 
+ 2653  grep -Ei "[^a-fj-n]" 10SimpleCalculator.sh
+ 2654  grep -Ei "ec" 10SimpleCalculator.sh
+ 2655  grep -Ei ";{2}" 10SimpleCalculator.sh
+ 2656  grep -E [[:digit:]] 10SimpleCalculator.sh 
+ 2657  grep -E "[[:lower:]" 10SimpleCalculator.sh 
+ 2658  grep -E "[[:lower:]]" 10SimpleCalculator.sh 
+ 2659  grep -E "[[:upper:]]" 10SimpleCalculator.sh 
+ 2660  grep -E "[[:space:]]" 10SimpleCalculator.sh 
+ 2661  ls -ltr
+ 2662  cd ..
+ 2663  ls -ltr | grep -Ei "^d"
+ 2664  ls -ltr | grep -E "[.sh]"
+ 2665  ls -ltr | grep -E "^[.sh]"
+ 2666  ls -ltr | grep -E "[.sh]$"
+ 2667  ls -ltr | grep -E ".sh$"
+ 2668  lsA
+ 2669  ls -ltr | grep -E ".sh*"
+ 2670  ls -ltr | grep -E ".sh$"
+ 2671  nano
+ 2672  cd Desktop/
+ 2673  cd linux_assignment/
+ 2674  nano my_serverinfo.txt
+ 2675  ls
+ 2676  cat my_serverinfo.txt | grep -E "0..9"
+ 2677  cat my_serverinfo.txt | grep -E "[0-9]"
+ 2678  cat my_serverinfo.txt | grep -E "[0-9][0-9][0-9]"
+ 2679  cat my_serverinfo.txt | grep -E "[0-9]{1,3}"
+ 2680  cat my_serverinfo.txt | grep -E "[0-9]{1,3}."
+ 2681  cat my_serverinfo.txt | grep -E "[0-9]{1,3}\."
+ 2682  cat my_serverinfo.txt | grep -E "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\."
+ 2683  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.b"
+ 2684  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\."
+ 2685  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\.[0-9]{1,3}\."
+ 2686  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\."
+ 2687  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\."
+ 2688  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
+ 2689  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\b"
+ 2690  cat my_serverinfo.txt | grep -Ei "server"
+ 2691  cat my_serverinfo.txt | grep -Ei "([0-9]{1,3}\.){3}[0-9]{1,3}
+ 2692  "
+ 2693  cat my_serverinfo.txt | grep -Ei "\b([0-9]{1,3}\.){3}[0-9]{1,3}
+ 2694  "
+ 2695  cat my_serverinfo.txt | grep -Ei "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b
+ 2696  "
+ 2697  cat my_serverinfo.txt | grep -E "\b[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\b"
+ 2698  cat my_serverinfo.txt | grep -Ei "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b
+ 2699  "
+ 2700  cat my_serverinfo.txt | grep -Ei "\b([0-9]{1,3}\.){3}([0-9]{1,3}\b)
+ 2701  "
+ 2702  cat my_serverinfo.txt | grep -Ei "(\b[0-9]{1,3}\.){3}([0-9]{1,3}\b)
+ 2703  "
+ 2704  cat /etc/passwd
+ 2705  cut -c 5 /etc/passwd
+ 2706  cut -c [1-5] /etc/passwd
+ 2707  cut -c "[1-5]" /etc/passwd
+ 2708  cut -c "1,5" /etc/passwd
+ 2709  cut -c 4-9,12 /etc/passwd
+ 2710  cut -c 1-4-9,12 /etc/passwd
+ 2711  cut -c -9,12 /etc/passwd
+ 2712  nano practice_cut
+ 2713  cat practice_cut 
+ 2714  cut -f 1,2 practice_cut 
+ 2715  cut -f 2- practice_cut 
+ 2716  vim practice_cut 
+ 2717  cut -f 2- practice_cut 
+ 2718  cut -f : 1 /etc/passwd
+ 2719  cut -f -d ":" 1 /etc/passwd
+ 2720  cut -d ":" -f 1,4 /etc/passwd
+ 2721  cut -d ":" -f 1,4 /etc/passwd --output-delimiter= 
+ 2722  cut -d ":" -f 1,4 /etc/passwd --output-delimiter=" "
+ 2723  cut -d ":" -f 1,4 /etc/passwd --output-delimiter=" @# "
+ 2724  cut -d ":" -f -4 /etc/passwd --output-delimiter=" @# "
+ 2725  cut -d ":" -f -4 /etc/passwd --output-delimiter=" | "
+ 2726  cut -sf 1,2 practice_cut 
+ 2727  cut -f 1,2 practice_cut 
+ 2728  cut -sf 1,2 practice_cut 
+ 2729  cut -d " " -f -1 practice_cut 
+ 2730  cut -d " " -sf -1 practice_cut 
+ 2731  httpd -v
+ 2732  python --version
+ 2733  python3 --version
+ 2734  python3 --version | cut -d ' '
+ 2735  python3 --version | cut -d ' ' -f 2
+ 2736  python_version=$(python3 --version | cut -d ' ' -f 2)
+ 2737  echo "python_version"
+ 2738  echo "$python_version"
+ 2739  lsA
+ 2740  clear
+ 2741  cat 1create_dir.sh 
+ 2742  cat 1create_dir.sh | grep -E "mkdir"
+ 2743  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3
+ 2744  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3 | cut -d "/" -f 3
+ 2745  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3 | cut -d "/" -sf 3
+ 2746  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3 output=">>"
+ 2747  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3 output=">"
+ 2748  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3 output-delimiter=">"
+ 2749  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3
+ 2750  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3 | cut -d "/" -f 1- --output-delimiter=">>"
+ 2751  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -f 3 | cut -d "/" -sf 1- --output-delimiter=">>"
+ 2752  cat 1create_dir.sh | grep -E "mkdir" | cut -d " " -sf 3 | cut -d "/" -sf 1- --output-delimiter=">>"
+ 2753  cat 1create_dir.sh | awk '/mkdir/ {print}'
+ 2754  cat 1create_dir.sh | awk '[ /]' '/mkdir/ {print}'
+ 2755  cat 1create_dir.sh | awk '[ /]' '/mkdir/ {print $4}'
+ 2756  cat 1create_dir.sh | awk -F '[ /]' '/mkdir/ {print $4}'
+ 2757  cat 1create_dir.sh | awk -F '[ /]' '/mkdir/ {print $5}'
+ 2758  cat practice_cut | awk '/([0-9]{1,3}){1,3}/ {print}'
+ 2759  cat practice_cut | awk '/([0-9]\.{1,3}){1,3}/ {print}'
+ 2760  cat practice_cut | awk '/[0-9]\.{1,3}/ {print}'
+ 2761  cat practice_cut | awk '/[0-9]\./ {print}'
+ 2762  cat practice_cut | awk '/[0-9]/ {print}'
+ 2763  cat practice_cut | awk -F '/([0-9]\.{1,3}){1,3}/ {print}'
+ 2764  grep -E "[[:space:]]" 10SimpleCalculator.sh 
+ 2765  ls -ltr | grep "d"
+ 2766  ls
+ 2767  cd ..
+ 2768  ls -ltr | grep -E ".sh$"
+ 2769  ls -ltr | grep -E "^d"
+ 2770  ls -ltr | grep -E "^d" | cut -f d
+ 2771  ls -ltr | grep -E "^d"
+ 2772  ls -ltr | grep -E "^d" | cut -d " " -f 3 | cut -d "/" -f 1- --output-delimiter=">>"
+ 2773  ls -ltr | grep -E "^d" | cut -d " " -f 3
+ 2774  ls -ltr | grep -E "^d" | cut -d " " -f 3.4.5
+ 2775  ls -ltr | grep -E "^d" | cut -d " " -f 1,1,2
+ 2776  sudo apt upgrade
+ 2777  sudo apt install nmap
+ 2778  source venv
+ 2779  python3 monitor_Web.py 
+ 2780  pip install requests
+ 2781  pip install prettytable
+ 2782  pip install gunicorn
+ 2783  /bin/python3 /home/rajiv-sharma/PycharmProjects/oops/pythonProject/monitor_Web.py
+ 2784  source venv
+ 2785  python3 source venv
+ 2786  touch create_structurenginxFlaskCal.sh
+ 2787  vim create_structurenginxFlaskCal.sh 
+ 2788  ls
+ 2789  chmod u+x create_structurenginxFlaskCal.sh 
+ 2790  ls
+ 2791  sudo ./create_structurenginxFlaskCal.sh 
+ 2792  cd /var/www
+ 2793  ls
+ 2794  cd awesomeweb/
+ 2795  sudo apt install python3-pip
+ 2796  pip install flask gunicorn
+ 2797  ls
+ 2798  cd app
+ 2799  ls
+ 2800  sudo vim __init__.py 
+ 2801  sudo vim views.py 
+ 2802  cd ..
+ 2803  ls
+ 2804  cd app
+ 2805  ls
+ 2806  cd templates/
+ 2807  ls
+ 2808  vim calculator.html 
+ 2809  nano calculator.html 
+ 2810  sudo vim calculator.html 
+ 2811  ls
+ 2812  cd ..
+ 2813  ls
+ 2814  cd ..
+ 2815  ls
+ 2816  sudo vim wsgi.py 
+ 2817  vim config.py 
+ 2818  sudo vim config.py 
+ 2819  [200~gunicorn --bind 0.0.0.0:5000 wsgi:app
+ 2820  gunicorn --bind 0.0.0.0:5000 wsgi:app
+ 2821  sudo apt install gunicorn
+ 2822  sudo apt install nginx
+ 2823  sudo apt update
+ 2824  sudo ap upgrade
+ 2825  sudo apt upgrade
+ 2826  sudo nano /etc/nginx/sites-available/awesomeweb
+ 2827  ls
+ 2828  sudo ln -s /etc/nginx/sites-available/awesomeweb /etc/nginx/sites-enabled/
+ 2829  sudo systemctl restart nginx
+ 2830  sudo nano /etc/hosts
+ 2831  gunicorn --bind 127.0.0.1:5000 wsgi:app
+ 2832  sudo systemctl status nginx
+ 2833  sudo systemctl stop nginx
+ 2834  mv assignment_link1.txt assignment_networking_server.txt
+ 2835  ls
+ 2836  ssh rajivVirtualBox@10.0.2.15
+ 2837  ssh rajiv@10.0.2.15
+ 2838  ssh Rajiv@10.0.2.15
+ 2839  ssh rajiv@10.0.2.15
+ 2840  ssh rajiv-VirtualBox@10.0.2.15
+ 2841  ifconfig | grep inter
+ 2842  ifconfig | grep int
+ 2843  ifconfig | grep "int"
+ 2844  ifconfig | grep -i"int"
+ 2845  ifconfig | grep -i "int"
+ 2846  ifconfig | grep inter
+ 2847  ifconfig
+ 2848  ssh rajiv-VirtualBox@10.0.2.15
+ 2849  ssh rajiv@10.0.2.15
+ 2850  ping 10.0.2.15
+ 2851  ssh rajiv@10.0.2.15
+ 2852  ping 10.0.2.15
+ 2853  ssh rajiv@10.0.2.15
+ 2854  ssh rajiv@10.0.2.15 -p 22
+ 2855  ssh rajiv@10.0.2.15
+ 2856  ifconfig
+ 2857  ls
+ 2858  sudo systemctl status ssh
+ 2859  ping 10.0.2.15
+ 2860  ssh rajiv@10.0.2.15
+ 2861  ssh rajiv@192.168.1.65
+ 2862  cd Desktop/
+ 2863  ls
+ 2864  cd aws
+ 2865  ls
+ 2866  nano region.txt 
+ 2867  cd
+ 2868  ls
+ 2869  ls -s
+ 2870  ls -ltrs
+ 2871  cd Desktop/
+ 2872  mkdir gitpract
+ 2873  cd gitpract/
+ 2874  git clone https://github.com/aashimaahuja/git-advanced.git
+ 2875  ls
+ 2876  cd git-advanced/
+ 2877  ls
+ 2878  nano readme.md 
+ 2879  code .
+ 2880  ls
+ 2881  ls -a
+ 2882  cd ..
+ 2883  rm -rf git-advanced/
+ 2884  ls
+ 2885  git clone https://github.com/rajivsharma92/git-advanced-prac.git
+ 2886  cd ..
+ 2887  mkdir dproject
+ 2888  mkdir learangit
+ 2889  touch fileone.txt
+ 2890  code .
+ 2891  code
+ 2892  rm learangit/
+ 2893  rm -rf  learangit/
+ 2894  rm fileone.txt 
+ 2895  cd dproject/
+ 2896  mkdir learngit
+ 2897  touch fileone.git
+ 2898  mv fileone.git $(pwd)/learngit/fileone.git
+ 2899  ls
+ 2900  cd learngit/
+ 2901  ls
+ 2902  touch fileone.txt
+ 2903  code .
+ 2904  cd 
+ 2905  ls
+ 2906  cd Desktop/
+ 2907  mkdir git-workshop
+ 2908  cd git-workshop/
+ 2909  touch index.html style.css
+ 2910  vim index.html 
+ 2911  vim style.css 
+ 2912  git init
+ 2913  git checkout main
+ 2914  git branch -a
+ 2915  git add .
+ 2916  git commit -m "new files added"
+ 2917  git status
+ 2918  git log
+ 2919  git branch -M main
+ 2920  git branch -a
+ 2921  git remote add https://github.com/rajivsharma92/git-workshop.git
+ 2922  git remote add origin https://github.com/rajivsharma92/git-workshop.git
+ 2923  git branch -M main
+ 2924  git push -u origin main
+ 2925  git remote add origin https://github.com/rajivsharma92/git-workshop.git
+ 2926  git push -u origin main
+ 2927  git remote rename origin base
+ 2928  ls
+ 2929  git push -u base main
+ 2930  ls
+ 2931  vim index.html 
+ 2932  git status
+ 2933  git add index.html 
+ 2934  git commit -m "index changes pushed"
+ 2935  git push base main
+ 2936  ls
+ 2937  git log
+ 2938  history > history.txt
